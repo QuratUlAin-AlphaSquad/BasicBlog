@@ -8,7 +8,7 @@ import Header from "../../Components/Header.svelte";
 <main>
     <div>
         <!-- About us -->
-    <div class="flex flex-row justify-center pt-[224px] gap-[138px] pb-[128px]">
+    <div class="flex flex-row justify-center pt-[224px] gap-[138px] pb-[128px] sm:flex-col md:items-center md:flex-col md:items-center lg:flex-col lg:items-center xl:flex-row">
         <div>
             <p class="font-sans text-[18px] font-medium leading-[32px]">About us</p>
             <p class="font-sans text-[54px] font-semibold leading-[74px] max-w-[595px] text-[#282938] pt-[8px] pb-[31px]">Our designs solve problems</p>
@@ -20,7 +20,7 @@ import Header from "../../Components/Header.svelte";
 
     </div>
 <!-- Who we are -->
-<div class="flex flex-col m-auto max-w-[1280px] bg-[#F4F5F5] pt-[80px]">
+<div class="flex flex-col m-auto max-w-[1280px] bg-[#F4F5F5] pt-[80px] sm:flex-col md:items-center md:flex-col md:items-center lg:flex-col lg:items-center xl:flex-col">
 <p class="pl-[79px] font-sans text-[16px] font-medium leading-[28px]">Who we are</p>
 <div class="flex flex-row pl-[79px] gap-[61px]">
     <div>
@@ -39,12 +39,12 @@ import Header from "../../Components/Header.svelte";
 
 </div>
 <!-- The process we follow -->
-<div class="flex flex-col items-center pt-[128px] pb-[128px]">
+<div class="flex flex-col items-center pt-[128px] pb-[128px] ">
     <div>
         <p class="font-sans text-[48px] font-semibold leading-[64px]">The process we follow</p>
     </div>
     <!-- The process we follow :4 divs -->
-    <div class="flex gap-[56px] pt-[48px]">
+    <div class="flex gap-[56px] pt-[48px] sm:flex-col md:items-center md:flex-col md:items-center lg:flex-col lg:items-center xl:flex-row">
         <!-- Div 1 -->
        <div>
         <div class="flex flex-row items-center gap-[24px]">
@@ -122,7 +122,7 @@ import Header from "../../Components/Header.svelte";
 <div class="flex flex-col">
 
 
-<div class="flex flex-row bg-[#EEF4FA] pt-[128px] items-center justify-center gap-[140px]">
+<div class="flex flex-row bg-[#EEF4FA] pt-[128px] items-center justify-center gap-[140px] sm:flex-col md:flex-col lg:flex-row xl:flex-row">
     <div class="flex flex-col justify-center ">
 
   
@@ -133,7 +133,7 @@ import Header from "../../Components/Header.svelte";
 </div>
 <img src="/src/lib/assets/a-man-standing-in-an-office-7792811.png" alt=""/>
 </div>
-<div class="flex flex-row bg-[#EEF4FA] pt-[128px] items-center justify-center gap-[140px] pb-[128px]">
+<div class="flex flex-row bg-[#EEF4FA] pt-[128px] items-center justify-center gap-[140px] pb-[128px] sm:flex-col md:flex-col lg:flex-row xl:flex-row">
     <img src="/src/lib/assets/photo-of-women-at-the-meeting-3810789.png" alt="" class=""/>
 
     <div class="flex flex-col justify-center ">
@@ -217,16 +217,12 @@ import Header from "../../Components/Header.svelte";
     <p class="font-sans text-[16px] font-normal leading-[28px]">Finsweet Users</p>
 
 </div>
-<div class="flex pt-[76px]">
+<div class="flex pt-[76px] sm:flex-col sm:items-start sm:gap-[20px] md:flex-col md:items-start md:gap-[20px] lg:flex-col lg:items-start xl:flex-row">
         <!-- logo 1 -->
-      <!-- <div> -->
         <img src="/src/lib/assets/Logo 1.png" alt="" class="pr-[59.09px]"/>
-      <!-- </div>  -->
                     <!-- logo 2 -->
-                    <!-- <div> -->
                         <img src="/src/lib/assets/Logo 2.png" alt=""/>
 
-                    <!-- </div> -->
    <!-- logo 3 -->
    <img src="/src/lib/assets/Logo 3.png" alt="" class="pr-[59.09px]"/>
    <!-- logo 4 -->
@@ -238,11 +234,11 @@ import Header from "../../Components/Header.svelte";
 </div>
 
 <!-- Meet our team -->
-<div class="bg-[#F4F6FC] flex flex-col items-center pb-[128px]">
+<div class="bg-[#F4F6FC] flex flex-col items-center pb-[128px] ">
     <p class="font-sans text-[48px] font-semibold leading-[64px] pb-[48px] pt-[128px]">Meet our team</p>
     <div class="flex flex-row">
     <!-- Team Images -->
-    <div class="flex gap-[32px]">
+    <div class="flex gap-[32px] sm:flex-col md:flex-col lg:flex-row xl:flex-row">
     <div class="max-w-[296px] bg-white px-[64px] pt-[48px] pb-[32px]">
 <div class="flex flex-col items-center relative">
     
