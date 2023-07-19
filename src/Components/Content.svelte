@@ -2,6 +2,7 @@
     import ViewProjects from "../lib/assets/ViewProjects.png";
     import HoverOverlay from "../lib/assets/Hover Overlay.png";
     import Card from "../lib/assets/Card.png";
+    import Illustration from "$lib/assets/Illustration.png";
 
     // import { onMount } from "svelte";
     // import { page } from "$app/stores";
@@ -33,15 +34,65 @@
         ];
 </script>
 
+<nav class="min-h-[760px] bg-[#1C1E53] ">
+    
+    <div
+        class=" bg-[#1C1E53] m-auto flex items-center justify-evenly py-[16px] sm:flex-col md:flex-col lg:flex-row">
+    <!-- Header Text -->
+    <div class="flex flex-row items-center gap-[60px] justify-center sm:flex-col md:flex-col lg:flex-row">
+        <div class="font-sans max-w-[582px] pt-[126px] pl-[160px] ">
+            <p
+                class=" text-[54px] font-sans font-semibold leading-[74px] text-white w-[562px]"
+            >
+                Building stellar websites for early startups
+            </p>
+            <p
+                class="text-white opacity-[0.699999988079071] font-sans text-[16px] font-normal pt-[24px] pb-[48px] leading-[28px] max-w-[562px]"
+            >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+            </p>
+            <div class="flex flex-row gap-[40px]">
+                <button class="bg-[#FCD980] rounded-full px-[56px] py-[16px]"
+                    >View our work</button
+                >
+                <div
+                    class="flex flex-row items-center justify-center gap-[16px]"
+                >
+                    <a href="/" alt="" class="text-white">View Pricing </a>
+                    <div>
+                        <svg
+                            width="25"
+                            height="12"
+                            viewBox="0 0 25 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                                fill="#F4F6FC"
+                            />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" max-w-[638px] ">
+            <img src={Illustration} alt="" />
+        </div>
+    </div>
+</div>
+</nav>
+
 <main class="">
  
     <!-- Hw we work -->
 
     <div
-        class="bg-[#F4F6FC] flex flex-row pb-[129px] justify-center">
-        <div class="flex ml-0 mr-0  gap-[142px] justify-center">
-            <div class="pt-[128px] pl-[165px] ml-[165px] max-w-[1224px]">
-                <p class="font-sans text-[48px] font-semibold leading-[64px]">
+        class="bg-[#F4F6FC] flex flex-row pb-[129px] justify-center sm:flex-col sm:justify-left md:flex-col md:justify-left">
+        <div class="flex gap-[142px] justify-center sm:flex-col md:flex-col lg:flex-row">
+            <div class="pt-[128px] pl-[165px] ml-[165px] max-w-[1224px] ">
+                <p class="font-sans text-[48px] font-semibold leading-[64px] ">
                     How we work
                 </p>
                 <p
@@ -76,7 +127,7 @@
             </div>
 
             <!-- 4 stratgies Div -->
-            <div class="mt-[128px] flex flex-col gap-[48px]">
+            <div class="mt-[128px] flex flex-col gap-[48px] sm:flex-col  ">
                 <div>
                     <!-- Stategy 1  -->
                     <div class="flex flex-row items-center justify-center">
@@ -191,7 +242,7 @@
         </div>
     </div>
     <!-- Features -->
-    <div class="flex flex-col items-center bg-[#F4F6FC] pb-[128px]">
+    <div class="flex flex-col items-center bg-[#F4F6FC] pb-[128px] ">
         <p class="font-sans text-[16px] font-medium leading-[28px] pt-[128px]">Features</p>
         <p class="font-sans text-[48px] font-semibold leading-[64px] max-w-[630px] text-center pb-[47px]">Design that solves problems, one product at a time</p>
         <!-- Cards -->
@@ -199,7 +250,7 @@
 
         {#each cards as card}
 
-        <div class="flex flex-row gap-[50px]" id="cards">
+        <div class="flex flex-row gap-[50px] sm:flex-col md:flex-col lg:flex-row" id="cards">
             <!-- <div> -->
            
                     
@@ -290,7 +341,7 @@
 
 </div>
 <!-- Frequently asked questions -->
-<div class="flex gap-[136px] pr-[158.69] pt-[128px] pb-[128px] justify-center">
+<div class="flex gap-[136px] pr-[158.69] pt-[128px] pb-[128px] justify-center sm:flex-col sm:items-center md:flex-col md:items-center lg:flex-row lg:items-start">
    <!-- Heading -->
     <div>
         <p class="font-sans text-[38px] font-semibold leading-[56px]">Frequently asked questions</p>
@@ -359,7 +410,7 @@
 </div>
 <!-- Building stellar websites for early startups IMAGE -->
 
-<div class="flex flex-row justify-center m-auto max-w-[1280px] bg-[#1C1E53]/[0.50]">
+<div class="flex flex-row justify-center m-auto max-w-[1280px] bg-[#1C1E53]/[0.50] sm:flex-col sm:max-w-[656px] md:flex-col md:max-w-[656px] lg:flex-row lg:max-w-[1280px]">
     <div class="relative">
         <!-- Img -->
         <!-- <div class="bg-cover" style="backgound-image:url('/src/lib/assets/woman-writing-on-paper.png')"></div> -->
@@ -391,7 +442,7 @@
 
 </div>
 <!-- Our blog -->
-<div class="flex flex-col justify-center pt-[128px] max-w-[1280px] m-auto">
+<div class="flex flex-col justify-center pt-[128px] max-w-[1280px] m-auto sm:items-center md:items-start">
         <p class="font-sans text-[48px] font-semibold leading-[64px]">Our blog</p>
 <!-- Cards -->
 <!-- Cards -->
@@ -399,16 +450,16 @@
 
 {#each cards as card}
 
-<div class="flex flex-row gap-[50px]" id="cards">
+<div class="flex flex-row gap-[50px] sm:flex-col sm:items-center md:flex-row md:items-center lg:flex-row" id="cards">
 
     <div class="bg-white max-w-[405px] pr-[32.58px] pl-[48.35px] pb-[48px] pt-[58px]">
         <img src="/src/lib/assets/arabic-businessman-standing-on-street-and-using-laptop.png" alt="">
 
         <p class="font-sans text-[16px] font-medium leading-[28px] text-[#282938]/[0.699999988079071]">19 Jan 2022</p>
-        <p class="font-sans text-[16px] font-normal leading-[28px]">How one Webflow user grew his single person consultancy from $0-100K in 14 months</p>
-        <p>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+        <p class="font-sans text-[24px] font-medium leading-[36px]">How one Webflow user grew his single person consultancy from $0-100K in 14 months</p>
+        <p class="font-sans text-[16px] font-normal leading-[28px] text-[#282938]/[0.699999988079071]">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
         <div class="flex flex-row items-center gap-[14px]">
-            <a href="/">Read More</a>
+            <a href="/" class="font-sans text-[16px] font-normal leading-[28px]">Read More</a>
             <svg width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#282938"/>
                 </svg>
@@ -421,14 +472,29 @@
         <img src="/src/lib/assets/woman-in-white-sleeveless-shirt-using-macbook-air-on-brown-wooden-table-3766189.png" alt="">
 
             
-        <p class="font-sans text-[24px] font-medium leading-[36px]">{card.heading}</p>
-        <p class="font-sans text-[16px] font-normal leading-[28px]">{card.para}</p>
+        <p class="font-sans text-[16px] font-medium leading-[28px] text-[#282938]/[0.699999988079071]">19 Jan 2022</p>
+        <p class="font-sans text-[24px] font-medium leading-[36px]">How one Webflow user grew his single person consultancy from $0-100K in 14 months</p>
+        <p class="font-sans text-[16px] font-normal leading-[28px] text-[#282938]/[0.699999988079071]">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+        <div class="flex flex-row items-center gap-[14px]">
+            <a href="/" class="font-sans text-[16px] font-normal leading-[28px]">Read More</a>
+            <svg width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#282938"/>
+                </svg>
+        </div>
     </div>
     <div class="bg-white max-w-[405px] pr-[32.58px] pl-[48.35px] pb-[48px] pt-[58px]">
       <img src="/src/lib/assets/apple-monitors-326518.png" alt="">
             
-        <p class="font-sans text-[24px] font-medium leading-[36px]">{card.heading}</p>
-        <p class="font-sans text-[16px] font-normal leading-[28px]">{card.para}</p>
+          
+      <p class="font-sans text-[16px] font-medium leading-[28px] text-[#282938]/[0.699999988079071]">19 Jan 2022</p>
+      <p class="font-sans text-[24px] font-medium leading-[36px]">How one Webflow user grew his single person consultancy from $0-100K in 14 months</p>
+      <p class="font-sans text-[16px] font-normal leading-[28px] text-[#282938]/[0.699999988079071]">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+      <div class="flex flex-row items-center gap-[14px]">
+          <a href="/" class="font-sans text-[16px] font-normal leading-[28px]">Read More</a>
+          <svg width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#282938"/>
+              </svg>
+      </div>
     </div>
 <!-- <p>{card.title}</p> -->
    

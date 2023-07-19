@@ -1,10 +1,12 @@
 <script>
-    import Illustration from "$lib/assets/Illustration.png";
+    // import Illustration from "$lib/assets/Illustration.png";
+
 </script>
 
-<nav class="min-h-[760px] bg-[#1C1E53]">
+<nav class=" bg-[#1C1E53]">
+    
     <div
-        class=" bg-[#1C1E53] m-auto flex items-center justify-evenly py-[16px]"
+        class=" bg-[#1C1E53] m-auto flex items-center justify-evenly py-[16px] sm:flex-col md:flex-col lg:flex-row"
     >
         <!-- Nav logo -->
         <div>
@@ -61,10 +63,10 @@
             </svg>
         </div>
         <!-- Nav Items -->
-        <div class=" flex items-center gap-[48px]">
-            <ul class="flex text-[#BBBBCB] flex gap-[32px]">
+        <div class=" flex items-center gap-[48px] sm:flex-col sm:pt-[10px] md:flex-col lg:flex-row">
+            <ul class="flex text-[#BBBBCB] flex gap-[32px] sm:flex-col md:flex-col lg:flex-row">
                 <li class="text-white">Home</li>
-                <li>About us</li>
+                <a href="/Aboutus">About us</a>
                 <li>Features</li>
                 <li>Pricing</li>
                 <li>FAQ</li>
@@ -79,47 +81,6 @@
             </div>
         </div>
     </div>
-    <!-- Header Text -->
-    <div class="flex flex-row items-center gap-[60px] justify-center">
-        <div class="font-sans max-w-[582px] pt-[126px] pl-[160px]">
-            <p
-                class=" text-[54px] font-sans font-semibold leading-[74px] text-white w-[562px]"
-            >
-                Building stellar websites for early startups
-            </p>
-            <p
-                class="text-white opacity-[0.699999988079071] font-sans text-[16px] font-normal pt-[24px] pb-[48px] leading-[28px] max-w-[562px]"
-            >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt.
-            </p>
-            <div class="flex flex-row gap-[40px]">
-                <button class="bg-[#FCD980] rounded-full px-[56px] py-[16px]"
-                    >View our work</button
-                >
-                <div
-                    class="flex flex-row items-center justify-center gap-[16px]"
-                >
-                    <a href="/" alt="" class="text-white">View Pricing </a>
-                    <div>
-                        <svg
-                            width="25"
-                            height="12"
-                            viewBox="0 0 25 12"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
-                                fill="#F4F6FC"
-                            />
-                        </svg>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class=" max-w-[638px]">
-            <img src={Illustration} alt="" />
-        </div>
-    </div>
+    <div>
+   
 </nav>
