@@ -1,14 +1,15 @@
 <script>
     // import Illustration from "$lib/assets/Illustration.png";
+    let show = false
 
 </script>
 <div class="relative">
 
-<nav class=" bg-[#1C1E53] fixed top-0 left-0 right-0">
+<nav class=" bg-[#1C1E53] lg:fixed top-0 left-0 right-0">
     
-    <div class=" bg-[#1C1E53] m-auto flex items-center justify-evenly py-[16px] sm:flex-col md:flex-col lg:flex-row ">
+    <div class=" bg-[#1C1E53] m-auto flex lg:items-center lg:justify-evenly py-[16px] sm:flex-col md:flex-col lg:flex-row">
         <!-- Nav logo -->
-        <div>
+        <div class="flex flex-row justify-between relative sm:pl-[90px]">
             <svg
                 width="122"
                 height="25"
@@ -60,9 +61,42 @@
                     </clipPath>
                 </defs>
             </svg>
+            <!-- hamburger -->
+            <button id="eye" on:click|preventDefault={() => show = !show} class="bg-blue lg:hidden sm:pr-[90px]">
+                {#if show}
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                   
+                   
+                       <!-- Nav Items -->
+        <div class=" flex gap-[48px] flex-col">
+            <ul class="flex text-[#BBBBCB] flex gap-[32px] sm:flex-col md:flex-col lg:flex-col">
+                <li class="text-white">Home</li>
+                <a href="/Aboutus">About us</a>
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>FAQ</li>
+                <li>Blog</li>
+            </ul>
+            <div>
+                <button
+                    class="text-white border-solid border-2 border-gray-600 rounded-full px-[28px] py-[8px]"
+                    >Contact us</button
+                >
+            </div>
+        </div>
+                    
+                {:else}
+                <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white flex items-right">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                  
+                {/if}
+            </button>
         </div>
         <!-- Nav Items -->
-        <div class=" flex items-center gap-[48px] sm:flex-col sm:pt-[10px] md:flex-col lg:flex-row">
+        <div class=" flex items-center gap-[48px] sm:flex-col sm:pt-[10px] md:flex-col lg:flex-row sm:hidden md:hidden lg:flex">
             <ul class="flex text-[#BBBBCB] flex gap-[32px] sm:flex-col md:flex-col lg:flex-row">
                 <li class="text-white">Home</li>
                 <a href="/Aboutus">About us</a>
@@ -70,7 +104,6 @@
                 <li>Pricing</li>
                 <li>FAQ</li>
                 <li>Blog</li>
-                <li>Home</li>
             </ul>
             <div>
                 <button
@@ -82,6 +115,5 @@
     </div>
     <div>
     </div>
-    
 </nav>
 </div>

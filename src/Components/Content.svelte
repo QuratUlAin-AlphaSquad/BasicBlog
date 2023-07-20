@@ -39,20 +39,29 @@
         // {title2:'Two Free Revision Round'},
         // {title3:'Template Customization'},
         ];
+// //////////////// Test Login btn
+ 
 </script>
+
+
+
+
+
+
 
 <nav class="min-h-[760px] bg-[#1C1E53] ">
     
     <div
-        class=" bg-[#1C1E53] m-auto flex items-center justify-evenly py-[16px] sm:flex-col md:flex-col lg:flex-row">
+        class=" bg-[#1C1E53] m-auto flex items-center justify-evenly py-[16px] sm:flex-col md:flex-col lg:flex-row ">
     <!-- Header Text -->
-    <div class="flex flex-row items-center gap-[60px] justify-center sm:flex-col md:flex-col lg:flex-row">
-        <div class="font-sans max-w-[582px] pt-[126px] pl-[160px] ">
+    <div class="flex flex-row items-center gap-[60px] justify-center sm:flex-col md:flex-col lg:flex-row ">
+        <div class="font-sans max-w-[582px] lg:pt-[126px] pl-[160px] ">
             <p
-                class=" text-[54px] font-sans font-semibold leading-[74px] text-white w-[562px]"
+                class=" text-[54px] font-sans font-semibold leading-[74px] text-white w-[562px] "
             >
                 Building stellar websites for early startups
             </p>
+
             <p
                 class="text-white opacity-[0.699999988079071] font-sans text-[16px] font-normal pt-[24px] pb-[48px] leading-[28px] max-w-[562px]"
             >
@@ -97,9 +106,9 @@
 
     <div
         class="bg-[#F4F6FC] flex flex-row pb-[129px] justify-center sm:flex-col sm:justify-left md:flex-col md:justify-left">
-        <div class="flex gap-[142px] justify-center sm:flex-col md:flex-col lg:flex-row">
-            <div class="pt-[128px] pl-[165px] ml-[165px] max-w-[1224px] ">
-                <p class="font-sans text-[48px] font-semibold leading-[64px] ">
+        <div class="flex gap-[142px] justify-center sm:flex-col sm:justify-start md:flex-col lg:flex-row">
+            <div class="pt-[128px] lg:pl-[165px] ml-[165px] max-w-[1224px] ">
+                <p class="font-sans text-[48px] font-semibold leading-[64px]">
                     How we work
                 </p>
                 <p
@@ -173,7 +182,7 @@
                     </div>
                 </div>
                 <!-- Stratgey 3 -->
-                <div class="flex flex-row">
+                <div class="flex flex-row items-center justify-center">
                     <div>
                         <img src={pointer3} alt="03"/>
 
@@ -212,8 +221,8 @@
     <div class="max-w-[1280px] m-auto pt-[128px] flex flex-col pb-[128px]">
         <!-- inner Div -->
         <div>
-            <div class="flex flex-row items-center justify-between">
-                <div class="font-sans text-[48px] font-semibold leading-[64px]">
+            <div class="flex sm:flex-col lg:flex-row items-center justify-between">
+                <div class="font-sans text-[48px] font-semibold leading-[64px] ">
                     <p>View our projects</p>
                 </div>
                 <div class="flex flex-row items-center gap-[16px]">
@@ -237,7 +246,7 @@
                 </div>
             </div>
             <!-- View our projects Imaged -->
-            <div class="flex flex-row gap-[31px]">
+            <div class="flex lg:flex-row gap-[31px] sm:flex-col sm:items-center">
                 <div>
                     <img src={ViewProjects} alt="" />
                 </div>
@@ -417,12 +426,12 @@
 </div>
 <!-- Building stellar websites for early startups IMAGE -->
 
-<div class="flex flex-row justify-center m-auto max-w-[1280px] bg-[#1C1E53]/[0.50] sm:flex-col sm:max-w-[656px] md:flex-col md:max-w-[656px] lg:flex-row lg:max-w-[1280px]">
+<div class="flex flex-row justify-center m-auto max-w-[1280px] bg-[#1C1E53]/[0.50] sm:flex-col sm:max-w-[656px] md:flex-col md:max-w-[656px] lg:flex-row lg:max-w-[656px]  xl:max-width[1280px]">
     <div class="relative">
         <!-- Img -->
         <!-- <div class="bg-cover" style="backgound-image:url('/src/lib/assets/woman-writing-on-paper.png')"></div> -->
 
-        <img class="max-w-[656px]" src={womanWriting} alt="woman-writing-on-paper"/>
+        <img class="sm:max-w-[640px] md:max-w-[656px] lg:max-w-[656px] xl:max-w-[656px]" src={womanWriting} alt="woman-writing-on-paper"/>
         <div class="absolute top-[96px] left-[96px]">
             <p class="font-sans text-[54px] font-semibold leading-[74px] max-w-[464px] text-white">Building stellar websites for early startups</p>
             <p class="font-sans text-[16px] font-medium leading-[28px] max-w-[464px] text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.</p>    
