@@ -4,6 +4,12 @@
     import Card from "../lib/assets/Card.png";
     import Illustration from "$lib/assets/Illustration.png";
     import pointer1 from "$lib/assets/pointer 1.png"
+    import pointer2 from "$lib/assets/pointer 2.png"
+    import pointer3 from "$lib/assets/pointer 3.png"
+    import pointer4 from "$lib/assets/pointer 4.png"
+    import JennyWilson from "$lib/assets/Jenny.png"
+    import womanWriting from "$lib/assets/woman-writing-on-paper.png"
+
 
     // import { onMount } from "svelte";
     // import { page } from "$app/stores";
@@ -149,7 +155,7 @@
                         </div>
                         <!-- Stategy 2-->
                         <div>
-                            <img src="/src/lib/assets/pointer 2.png" alt="02"/>
+                            <img src={pointer2} alt="02"/>
 
                           
                             <p
@@ -169,7 +175,7 @@
                 <!-- Stratgey 3 -->
                 <div class="flex flex-row">
                     <div>
-                        <img src="/src/lib/assets/pointer 3.png" alt="03"/>
+                        <img src={pointer3} alt="03"/>
 
                         <p
                             class="font-sans text-[32px] font-medium leading-[48px]"
@@ -185,7 +191,7 @@
                     </div>
                     <!-- Stratgey 3 -->
                     <div>
-                        <img src="/src/lib/assets/pointer 4.png" alt="04"/>
+                        <img src={pointer4} alt="04"/>
                         <p
                             class="font-sans text-[32px] font-medium leading-[48px]"
                         >
@@ -318,7 +324,7 @@
         <div class="flex flex-row justify-between">
             <div class="flex flex-row gap-[14px] items-center">
                <div>
-                <img src="/src/lib/assets/Jenny.png" alt="JennyWilson"/>
+                <img src={JennyWilson} alt="JennyWilson"/>
                </div> 
                 <div>
                     <p class="font-sans text-[18px] font-medium leading-[32px]">Jenny Wilson</p>
@@ -416,7 +422,7 @@
         <!-- Img -->
         <!-- <div class="bg-cover" style="backgound-image:url('/src/lib/assets/woman-writing-on-paper.png')"></div> -->
 
-        <img class="max-w-[656px]" src="/src/lib/assets/woman-writing-on-paper.png" alt="woman-writing-on-paper"/>
+        <img class="max-w-[656px]" src={womanWriting} alt="woman-writing-on-paper"/>
         <div class="absolute top-[96px] left-[96px]">
             <p class="font-sans text-[54px] font-semibold leading-[74px] max-w-[464px] text-white">Building stellar websites for early startups</p>
             <p class="font-sans text-[16px] font-medium leading-[28px] max-w-[464px] text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.</p>    
