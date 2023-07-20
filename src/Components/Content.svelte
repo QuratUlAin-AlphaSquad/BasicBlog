@@ -86,7 +86,7 @@
 
 <main class="">
  
-    <!-- Hw we work -->
+    <!-- How we work -->
 
     <div
         class="bg-[#F4F6FC] flex flex-row pb-[129px] justify-center sm:flex-col sm:justify-left md:flex-col md:justify-left">
@@ -132,7 +132,7 @@
                     <!-- Stategy 1  -->
                     <div class="flex flex-row items-center justify-center">
                         <div>
-                            <img src="/src/lib/assets/pointer 1.png" alt="01"/>
+                            <img src="/static/pointer 1.png" alt="01"/>
 
                             <p
                                 class="font-sans text-[32px] font-medium leading-[48px]"
