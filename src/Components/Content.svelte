@@ -3,6 +3,7 @@
     import HoverOverlay from "../lib/assets/Hover Overlay.png";
     import Card from "../lib/assets/Card.png";
     import Illustration from "$lib/assets/Illustration.png";
+    import pointer1 from "$lib/assets/pointer 1.png"
 
     // import { onMount } from "svelte";
     // import { page } from "$app/stores";
@@ -132,7 +133,7 @@
                     <!-- Stategy 1  -->
                     <div class="flex flex-row items-center justify-center">
                         <div>
-                            <img src="/static/pointer 1.png" alt="01"/>
+                            <img src={pointer1} alt="01"/>
 
                             <p
                                 class="font-sans text-[32px] font-medium leading-[48px]"
