@@ -2,12 +2,11 @@
     // import Illustration from "$lib/assets/Illustration.png";
 
 </script>
+<div class="relative">
 
-<nav class=" bg-[#1C1E53]">
+<nav class=" bg-[#1C1E53] fixed top-0 left-0 right-0">
     
-    <div
-        class=" bg-[#1C1E53] m-auto flex items-center justify-evenly py-[16px] sm:flex-col md:flex-col lg:flex-row"
-    >
+    <div class=" bg-[#1C1E53] m-auto flex items-center justify-evenly py-[16px] sm:flex-col md:flex-col lg:flex-row ">
         <!-- Nav logo -->
         <div>
             <svg
@@ -82,5 +81,7 @@
         </div>
     </div>
     <div>
-   
+    </div>
+    
 </nav>
+</div>
