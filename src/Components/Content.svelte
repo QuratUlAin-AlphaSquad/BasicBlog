@@ -105,7 +105,8 @@
     <!-- How we work -->
 
     <div
-        class="bg-[#F4F6FC] flex flex-row pb-[129px] justify-center sm:flex-col sm:justify-left md:flex-col md:justify-left">
+        class="bg-[#F4F6FC] flex flex-row pb-[129px] lg:items-center sm:flex-col sm:justify-left md:flex-col md:justify-left">
+        <div class="">
         <div class="flex gap-[142px] justify-center sm:flex-col sm:justify-start md:flex-col lg:flex-row">
             <div class="pt-[128px] lg:pl-[165px] ml-[165px] max-w-[1224px] ">
                 <p class="font-sans text-[48px] font-semibold leading-[64px]">
@@ -198,7 +199,7 @@
                             et velit aliquam .
                         </p>
                     </div>
-                    <!-- Stratgey 3 -->
+                    <!-- Stratgey 4 -->
                     <div>
                         <img src={pointer4} alt="04"/>
                         <p
@@ -217,6 +218,7 @@
             </div>
         </div>
     </div>
+</div>
     <!-- View our projects -->
     <div class="max-w-[1280px] m-auto pt-[128px] flex flex-col pb-[128px]">
         <!-- inner Div -->
