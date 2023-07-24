@@ -9,6 +9,9 @@
     import pointer4 from "$lib/assets/pointer 4.png";
     import JennyWilson from "$lib/assets/Jenny.png";
     import womanWriting from "$lib/assets/woman-writing-on-paper.png";
+    import businessman from "$lib/assets/arabic-businessman-standing-on-street-and-using-laptop.png"
+    import macbook from "$lib/assets/woman-in-white-sleeveless-shirt-using-macbook-air-on-brown-wooden-table-3766189.png"
+    import applemonitors from "$lib/assets/apple-monitors-326518.png"
 
     // import { onMount } from "svelte";
     // import { page } from "$app/stores";
@@ -756,7 +759,7 @@
                         class="bg-white max-w-[405px] pr-[32.58px] pl-[48.35px] pb-[48px] pt-[58px]"
                     >
                         <img
-                            src="/src/lib/assets/arabic-businessman-standing-on-street-and-using-laptop.png"
+                            src={businessman}
                             alt=""
                         />
 
@@ -802,7 +805,7 @@
                         class="bg-white max-w-[405px] pr-[32.58px] pl-[48.35px] pb-[48px] pt-[58px]"
                     >
                         <img
-                            src="/src/lib/assets/woman-in-white-sleeveless-shirt-using-macbook-air-on-brown-wooden-table-3766189.png"
+                            src={macbook}
                             alt=""
                         />
 
@@ -847,7 +850,7 @@
                         class="bg-white max-w-[405px] pr-[32.58px] pl-[48.35px] pb-[48px] pt-[58px]"
                     >
                         <img
-                            src="/src/lib/assets/apple-monitors-326518.png"
+                            src={applemonitors}
                             alt=""
                         />
 
