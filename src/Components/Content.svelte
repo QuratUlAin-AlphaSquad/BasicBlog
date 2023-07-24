@@ -142,9 +142,9 @@
     // //////////////// Test Login btn
 </script>
 
-<nav class="min-h-[760px] bg-[#1C1E53]">
+<nav class="min-h-[760px] bg-[#1C1E53] flex items-center justify-evenly">
     <div
-        class=" bg-[#1C1E53] m-auto flex items-center justify-evenly py-[16px] sm:flex-col md:flex-col lg:flex-col xl:flex-row"
+        class=" bg-[#1C1E53] flex py-[16px] sm:flex-col md:flex-col lg:flex-col xl:flex-row"
     >
         <!-- Header Text -->
         <div
@@ -156,7 +156,6 @@
                 >
                     Building stellar websites for early startups
                 </p>
-
                 <p
                     class="text-white opacity-[0.699999988079071] font-sans text-[16px] font-normal pt-[24px] pb-[48px] leading-[28px] max-w-[562px]"
                 >
@@ -189,7 +188,7 @@
                     </div>
                 </div>
             </div>
-            <div class=" max-w-[638px] mt-[149px]">
+            <div class=" max-w-[638px] pt-[149px]">
                 <img src={Illustration} alt="" />
             </div>
         </div>
@@ -206,7 +205,7 @@
             <div
                 class="flex gap-[142px] justify-center sm:flex-col sm:justify-start md:flex-col lg:flex-row"
             >
-                <div class="pt-[128px] lg:pl-[165px] ml-[165px] max-w-[1224px]">
+                <div class="pt-[128px] lg:pl-[165px] pl-[165px] max-w-[1224px]">
                     <p
                         class="font-sans text-[48px] font-semibold leading-[64px]"
                     >
@@ -244,7 +243,7 @@
                 </div>
 
                 <!-- 4 stratgies Div -->
-                <div class="mt-[128px] flex flex-col gap-[48px] sm:flex-col">
+                <div class="pt-[128px] flex flex-col gap-[48px] sm:flex-col">
                     <div>
                         <!-- Stategy 1  -->
                         <div class="flex flex-row items-center justify-center">
@@ -356,7 +355,7 @@
                     <img
                         src={ViewProjects}
                         alt=""
-                        class="sm:max-w-[405px] md:max-w-[843px]"
+                        class="sm:max-w-[405px] md:max-w-[405px] lg:max-w-[843px]"
                     />
                 </div>
                 <div class="flex flex-col items-center gap-[32px]">
@@ -491,7 +490,7 @@
     </div>
     <!-- Frequently asked questions -->
     <div
-        class="flex gap-[136px] pr-[158.69] pt-[128px] pb-[128px] justify-center sm:flex-col sm:items-center md:flex-col md:items-center lg:flex-row lg:items-start"
+        class="flex gap-[136px] pt-[128px] pb-[128px] justify-center sm:flex-col sm:items-center md:flex-col md:items-center lg:flex-col lg:items-center xl:flex-row xl:items-start"
     >
         <!-- Heading -->
         <div>
@@ -505,8 +504,8 @@
             </p>
         </div>
         <!-- FAQs -->
-        <div>
-            <div class="flex flex-row justify-between">
+        <div class="sm:max-w-[646px] md:max-w-[1600px] lg:max-w-[1600px] ">
+            <div class="flex flex-row justify-between ">
                 <div>
                     <p
                         class="font-sans text-[24px] font-medium leading-[36px] text-[#2405F2]"
@@ -744,7 +743,7 @@
     </div>
     <!-- Our blog -->
     <div
-        class="flex flex-col justify-center pt-[128px] max-w-[1280px] m-auto sm:items-center md:items-start"
+        class="flex flex-col justify-start pt-[128px] max-w-[1280px] m-auto sm:items-center md:items-start"
     >
         <p class="font-sans text-[48px] font-semibold leading-[64px]">
             Our blog
@@ -756,7 +755,7 @@
                     id="cards"
                 >
                     <div
-                        class="bg-white max-w-[405px] pr-[32.58px] pl-[48.35px] pb-[48px] pt-[58px]"
+                        class="bg-white max-w-[405px] pb-[48px] pt-[58px]"
                     >
                         <img
                             src={businessman}
@@ -802,7 +801,7 @@
                     </div>
 
                     <div
-                        class="bg-white max-w-[405px] pr-[32.58px] pl-[48.35px] pb-[48px] pt-[58px]"
+                        class="bg-white max-w-[405px] pb-[48px] pt-[58px]"
                     >
                         <img
                             src={macbook}
@@ -847,7 +846,7 @@
                         </div>
                     </div>
                     <div
-                        class="bg-white max-w-[405px] pr-[32.58px] pl-[48.35px] pb-[48px] pt-[58px]"
+                        class="bg-white max-w-[405px] pb-[48px] pt-[58px]"
                     >
                         <img
                             src={applemonitors}
