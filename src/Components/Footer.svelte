@@ -96,7 +96,7 @@
             </div>
     </div>
     <!-- Copyright -->
-    <div class="flex flex-row justify-around py-[32px]">
+    <div class="flex md:flex-row justify-around py-[32px] sm:flex-col sm:items-center">
         <div>
             <p class="font-sans text-[16px] font-medium leading-[28px]">Copyright 2022, Finsweet.com</p>
         </div>

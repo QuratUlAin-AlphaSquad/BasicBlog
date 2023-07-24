@@ -52,12 +52,12 @@
 <nav class="min-h-[760px] bg-[#1C1E53] ">
     
     <div
-        class=" bg-[#1C1E53] m-auto flex items-center justify-evenly py-[16px] sm:flex-col md:flex-col lg:flex-row ">
+        class=" bg-[#1C1E53] m-auto flex items-center justify-evenly py-[16px] sm:flex-col md:flex-col lg:flex-col xl:flex-row">
     <!-- Header Text -->
     <div class="flex flex-row items-center gap-[60px] justify-center sm:flex-col md:flex-col lg:flex-row ">
         <div class="font-sans max-w-[582px] lg:pt-[126px] pl-[160px] ">
             <p
-                class=" text-[54px] font-sans font-semibold leading-[74px] text-white w-[562px] "
+                class=" text-[54px] font-sans font-semibold leading-[74px] text-white max-w-[562px] "
             >
                 Building stellar websites for early startups
             </p>
@@ -93,7 +93,7 @@
                 </div>
             </div>
         </div>
-        <div class=" max-w-[638px] ">
+        <div class=" max-w-[638px] mt-[149px]">
             <img src={Illustration} alt="" />
         </div>
     </div>
@@ -428,19 +428,19 @@
 </div>
 <!-- Building stellar websites for early startups IMAGE -->
 
-<div class="flex flex-row justify-center m-auto max-w-[1280px] bg-[#1C1E53]/[0.50] sm:flex-col sm:max-w-[656px] md:flex-col md:max-w-[656px] lg:flex-row lg:max-w-[656px]  xl:max-width[1280px]">
+<div class="flex flex-row justify-center m-auto w-[1280px] bg-[#1C1E53]/[0.50] sm:flex-col sm:w-[640px] md:flex-col md:w-[656px] lg:flex-col lg:w-[656px] xl:flex-row xl:w-[656px] ">
     <div class="relative">
         <!-- Img -->
         <!-- <div class="bg-cover" style="backgound-image:url('/src/lib/assets/woman-writing-on-paper.png')"></div> -->
 
-        <img class="sm:max-w-[640px] md:max-w-[656px] lg:max-w-[656px] xl:max-w-[656px]" src={womanWriting} alt="woman-writing-on-paper"/>
+        <img class="max-w-full lg:max-w-[656px]" src={womanWriting} alt="woman-writing-on-paper"/>
         <div class="absolute top-[96px] left-[96px]">
             <p class="font-sans text-[54px] font-semibold leading-[74px] max-w-[464px] text-white">Building stellar websites for early startups</p>
             <p class="font-sans text-[16px] font-medium leading-[28px] max-w-[464px] text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.</p>    
         </div>
     </div>
                 <!--  Send an Inquiry-->
-    <div class="bg-[#1C1E53] flex flex-col justify-center pl-[96px] gap-[16px]">
+    <div class="bg-[#1C1E53] flex flex-col justify-center pl-[96px] pr-[96px] gap-[16px]">
         
         <p class="text-white font-sans text-[32px] font-medium leading-[48px] pb-[16px]">Send inquiry</p>
         <p class="text-white font-sans text-[16px] font-medium leading-[28px] pr-[96px] pb-[40px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>

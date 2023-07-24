@@ -3,7 +3,7 @@
     let show = false
 
 </script>
-<div class="relative">
+<div class="relative z-10">
 
 <nav class=" bg-[#1C1E53] lg:fixed top-0 left-0 right-0">
     
