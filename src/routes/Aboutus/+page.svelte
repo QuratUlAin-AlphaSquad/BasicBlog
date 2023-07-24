@@ -8,7 +8,7 @@
     <div>
         <!-- About us -->
         <div
-            class="flex flex-row justify-center pt-[224px] gap-[138px] pb-[128px] sm:flex-col md:items-center md:flex-col md:items-center lg:flex-col lg:items-center xl:flex-row"
+            class="flex flex-row justify-center pt-[224px] gap-[138px] pb-[128px] sm:flex-col sm:items-center md:flex-col md:items-center lg:flex-col lg:items-center xl:flex-row "
         >
             <div>
                 <p class="font-sans text-[18px] font-medium leading-[32px]">
@@ -36,10 +36,10 @@
         </div>
         <!-- Who we are -->
         <div
-            class="flex flex-col m-auto max-w-[1280px] bg-[#F4F5F5] pt-[80px] sm:flex-col md:items-center md:flex-col md:items-center lg:flex-col lg:items-center xl:flex-col"
+            class="flex flex-col m-auto max-w-[1280px] bg-[#F4F5F5] pt-[80px] sm:flex-col md:items-center md:flex-col md:items-center lg:flex-col lg:items-center xl:flex-col xl:items-start"
         >
             <p
-                class="pl-[79px] font-sans text-[16px] font-medium leading-[28px]"
+                class="pl-[79px] font-sans text-[16px] font-medium leading-[28px] text-left"
             >
                 Who we are
             </p>
