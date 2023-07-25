@@ -1,15 +1,14 @@
 <script>
-    // import Illustration from "$lib/assets/Illustration.png";
-    let show = false
-
+    let show = false;
 </script>
-<div class="relative z-10">
 
-<nav class=" bg-[#1C1E53] lg:fixed top-0 left-0 right-0">
-    
-    <div class=" bg-[#1C1E53] m-auto flex lg:items-center lg:justify-evenly py-[16px] sm:flex-col md:flex-col lg:flex-row">
-        <!-- Nav logo -->
-        <div class="flex flex-row justify-between relative sm:pl-[90px]">
+<nav class="">
+    <!-- <div class="flex items-start justify-around"> -->
+    <div
+        class="min-h-[50px] py-[16px] px-[160px] w-full bg-[#1C1E53] flex flex-col justify-center items-center md:flex md:flex-col lg:flex-row lg:justify-around md:justify-center md:items-center sm:flex-row sm:justify-center"
+    >
+        <!-- svg -->
+        <div class="flex w-full justify-between">
             <svg
                 width="122"
                 height="25"
@@ -62,58 +61,80 @@
                 </defs>
             </svg>
             <!-- hamburger -->
-            <button id="eye" on:click|preventDefault={() => show = !show} class="bg-blue lg:hidden sm:pr-[90px]">
+            <button
+                class="lg:hidden"
+                on:click|preventDefault={() => (show = !show)}
+            >
                 {#if show}
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                   
-                   
-                       <!-- Nav Items -->
-        <div class=" flex gap-[48px] flex-col">
-            <ul class="flex text-[#BBBBCB] flex gap-[32px] sm:flex-col md:flex-col lg:flex-col">
-                <li class="text-white">Home</li>
-                <a href="/Aboutus">About us</a>
-                <li>Features</li>
-                <li>Pricing</li>
-                <li>FAQ</li>
-                <li>Blog</li>
-            </ul>
-            <div>
-                <button
-                    class="text-white border-solid border-2 border-gray-600 rounded-full px-[28px] py-[8px]"
-                    >Contact us</button
-                >
-            </div>
-        </div>
-                    
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6 text-white"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M6 18L18 6M6 6l12 12"
+                        />
+                    </svg>
                 {:else}
-                <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white flex items-right">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                  </svg>
-                  
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6 text-white flex items-right"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                        />
+                    </svg>
                 {/if}
             </button>
         </div>
-        <!-- Nav Items -->
-        <div class=" flex items-center gap-[48px] sm:flex-col sm:pt-[10px] md:flex-col lg:flex-row sm:hidden md:hidden lg:flex">
-            <ul class="flex text-[#BBBBCB] flex gap-[32px] sm:flex-col md:flex-col lg:flex-row">
+        <!-- Nav-Items -->
+        {#if show}
+            <div
+                id="navItems"
+                class="lg:flex p lg:flex-row lg:gap-[8px] flex flex-col justify-center items-center lg:block"
+            >
+                <ul class=" lg:flex lg:flex-row gap-[32px] text-[#BBBBCB]">
+                    <li class="text-white">Home</li>
+                    <a href="/">About us</a>
+                    <li>Features</li>
+                    <li>Pricing</li>
+                    <li>FAQ</li>
+                    <li>Blog</li>
+                </ul>
+                <button
+                    class="text-white border-solid lg:border-2 border-gray-600 rounded-full px-[28px] py-[8px] lg:px-[48px] lg:py-[16px] lg:w-[185px] text-[#BBBBCB]"
+                    >Contact us</button
+                >
+            </div>
+        {/if}
+        <div
+            id="navItems"
+            class="hidden lg:flex lg:flex-row lg:gap-[8px] flex flex-col justify-center items-center lg:block"
+        >
+            <ul class=" lg:flex lg:flex-row gap-[32px] text-[#BBBBCB]">
                 <li class="text-white">Home</li>
-                <a href="/Aboutus">About us</a>
+                <a href="/">About us</a>
                 <li>Features</li>
                 <li>Pricing</li>
                 <li>FAQ</li>
                 <li>Blog</li>
             </ul>
-            <div>
-                <button
-                    class="text-white border-solid border-2 border-gray-600 rounded-full px-[48px] py-[16px]"
-                    >Contact us</button
-                >
-            </div>
+            <button
+                class="text-white w-full border-solid lg:border-2 border-gray-600 rounded-full px-[28px] py-[8px] lg:px-[28px] lg:py-[8px] lg:w-[145px] text-[#BBBBCB]"
+                >Contact us</button
+            >
         </div>
     </div>
-    <div>
-    </div>
+<!-- </div> -->
 </nav>
-</div>

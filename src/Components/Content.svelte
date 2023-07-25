@@ -141,7 +141,6 @@
    
     // //////////////// Test Login btn
 </script>
-
 <nav class="min-h-[760px] bg-[#1C1E53] flex items-center justify-evenly">
     <div
         class=" bg-[#1C1E53] flex py-[16px] sm:flex-col md:flex-col lg:flex-col xl:flex-row"
@@ -152,7 +151,7 @@
         >
             <div class="font-sans max-w-[582px] lg:pt-[126px] pl-[160px]">
                 <p
-                    class=" text-[54px] font-sans font-semibold leading-[74px] text-white max-w-[562px]"
+                    class=" lg:text-[54px] md:text-2xl text-base font-sans font-semibold lg:leading-[74px] text-white max-w-[562px]"
                 >
                     Building stellar websites for early startups
                 </p>
@@ -194,6 +193,7 @@
         </div>
     </div>
 </nav>
+<div class="max-w-[1600px] m-auto">
 
 <main class="">
     <!-- How we work -->
@@ -894,3 +894,4 @@
          
     </div>
 </main>
+</div>
