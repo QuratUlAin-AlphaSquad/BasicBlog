@@ -9,9 +9,9 @@
     import pointer4 from "$lib/assets/pointer 4.png";
     import JennyWilson from "$lib/assets/Jenny.png";
     import womanWriting from "$lib/assets/woman-writing-on-paper.png";
-    import businessman from "$lib/assets/arabic-businessman-standing-on-street-and-using-laptop.png"
-    import macbook from "$lib/assets/woman-in-white-sleeveless-shirt-using-macbook-air-on-brown-wooden-table-3766189.png"
-    import applemonitors from "$lib/assets/apple-monitors-326518.png"
+    import businessman from "$lib/assets/arabic-businessman-standing-on-street-and-using-laptop.png";
+    import macbook from "$lib/assets/woman-in-white-sleeveless-shirt-using-macbook-air-on-brown-wooden-table-3766189.png";
+    import applemonitors from "$lib/assets/apple-monitors-326518.png";
 
     // import { onMount } from "svelte";
     // import { page } from "$app/stores";
@@ -138,122 +138,110 @@
         },
     ];
 
-   
     // //////////////// Test Login btn
 </script>
-<nav class="min-h-[760px] bg-[#1C1E53] flex items-center justify-evenly">
-    <div
-        class=" bg-[#1C1E53] flex py-[16px] sm:flex-col md:flex-col lg:flex-col xl:flex-row"
-    >
-        <!-- Header Text -->
-        <div
-            class="flex flex-row items-center gap-[60px] justify-center sm:flex-col md:flex-col lg:flex-row"
-        >
-            <div class="font-sans max-w-[582px] lg:pt-[126px] pl-[160px]">
-                <p
-                    class=" lg:text-[54px] md:text-2xl text-base font-sans font-semibold lg:leading-[74px] text-white max-w-[562px]"
-                >
-                    Building stellar websites for early startups
-                </p>
-                <p
-                    class="text-white opacity-[0.699999988079071] font-sans text-[16px] font-normal pt-[24px] pb-[48px] leading-[28px] max-w-[562px]"
-                >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt.
-                </p>
-                <div class="flex flex-row gap-[40px]">
-                    <button
-                        class="bg-[#FCD980] rounded-full px-[56px] py-[16px]"
-                        >View our work</button
-                    >
-                    <div
-                        class="flex flex-row items-center justify-center gap-[16px]"
-                    >
-                        <a href="/" alt="" class="text-white">View Pricing </a>
-                        <div>
-                            <svg
-                                width="25"
-                                height="12"
-                                viewBox="0 0 25 12"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
-                                    fill="#F4F6FC"
-                                />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class=" max-w-[638px] pt-[149px]">
-                <img src={Illustration} alt="" />
-            </div>
-        </div>
-    </div>
-</nav>
+
 <div class="max-w-[1600px] m-auto">
+    <main class="">
+        <!-- How we work -->
 
-<main class="">
-    <!-- How we work -->
-
-    <div
-        class="bg-[#F4F6FC] flex flex-row pb-[129px] lg:items-center sm:flex-col sm:justify-left md:flex-col md:justify-left"
-    >
-        <div class="">
-            <div
-                class="flex gap-[142px] justify-center sm:flex-col sm:justify-start md:flex-col lg:flex-row"
-            >
-                <div class="pt-[128px] lg:pl-[165px] pl-[165px] max-w-[1224px]">
-                    <p
-                        class="font-sans text-[48px] font-semibold leading-[64px]"
+        <div
+            class="bg-[#F4F6FC] flex flex-row pb-[129px] lg:items-center sm:flex-col sm:justify-left md:flex-col md:justify-left"
+        >
+            <div class="">
+                <div
+                    class="flex gap-[142px] justify-center sm:flex-col sm:justify-start md:flex-col lg:flex-row"
+                >
+                    <div
+                        class="pt-[128px] lg:pl-[165px] pl-[165px] max-w-[1224px]"
                     >
-                        How we work
-                    </p>
-                    <p
-                        class="font-sans text-[16px] font-normal leading-[28px] max-w-[405px]"
-                    >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor.
-                    </p>
-                    <div class="flex flex-row items-center gap-[14px]">
-                        <div>
-                            <p
-                                class="font-sans text-[18px] font-medium leading-[32px] text-[#2405F2]"
-                            >
-                                Get in touch with us
-                            </p>
-                        </div>
-                        <div>
-                            <svg
-                                width="25"
-                                height="12"
-                                viewBox="0 0 25 12"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
-                                    fill="#2405F2"
-                                />
-                            </svg>
+                        <p
+                            class="font-sans text-[48px] font-semibold leading-[64px]"
+                        >
+                            How we work
+                        </p>
+                        <p
+                            class="font-sans text-[16px] font-normal leading-[28px] max-w-[405px]"
+                        >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor.
+                        </p>
+                        <div class="flex flex-row items-center gap-[14px]">
+                            <div>
+                                <p
+                                    class="font-sans text-[18px] font-medium leading-[32px] text-[#2405F2]"
+                                >
+                                    Get in touch with us
+                                </p>
+                            </div>
+                            <div>
+                                <svg
+                                    width="25"
+                                    height="12"
+                                    viewBox="0 0 25 12"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                                        fill="#2405F2"
+                                    />
+                                </svg>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- 4 stratgies Div -->
-                <div class="pt-[128px] flex flex-col gap-[48px] sm:flex-col">
-                    <div>
-                        <!-- Stategy 1  -->
+                    <!-- 4 stratgies Div -->
+                    <div
+                        class="pt-[128px] flex flex-col gap-[48px] sm:flex-col"
+                    >
+                        <div>
+                            <!-- Stategy 1  -->
+                            <div
+                                class="flex flex-row items-center justify-center"
+                            >
+                                <div>
+                                    <img src={pointer1} alt="01" />
+
+                                    <p
+                                        class="font-sans text-[32px] font-medium leading-[48px]"
+                                    >
+                                        Strategy
+                                    </p>
+                                    <p
+                                        class="font-sans text-[16px] font-normal leading-[28px] max-w-[303px]"
+                                    >
+                                        Euismod faucibus turpis eu gravida mi.
+                                        Pellentesque et velit aliquam .
+                                    </p>
+                                </div>
+                                <!-- Stategy 2-->
+                                <div>
+                                    <img src={pointer2} alt="02" />
+
+                                    <p
+                                        class="font-sans text-[32px] font-medium leading-[48px]"
+                                    >
+                                        Wireframing
+                                    </p>
+                                    <p
+                                        class="font-sans text-[16px] font-normal leading-[28px] max-w-[303px]"
+                                    >
+                                        Euismod faucibus turpis eu gravida mi.
+                                        Pellentesque et velit aliquam .
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Stratgey 3 -->
                         <div class="flex flex-row items-center justify-center">
                             <div>
-                                <img src={pointer1} alt="01" />
+                                <img src={pointer3} alt="03" />
 
                                 <p
                                     class="font-sans text-[32px] font-medium leading-[48px]"
                                 >
-                                    Strategy
+                                    Design
                                 </p>
                                 <p
                                     class="font-sans text-[16px] font-normal leading-[28px] max-w-[303px]"
@@ -262,14 +250,13 @@
                                     Pellentesque et velit aliquam .
                                 </p>
                             </div>
-                            <!-- Stategy 2-->
+                            <!-- Stratgey 4 -->
                             <div>
-                                <img src={pointer2} alt="02" />
-
+                                <img src={pointer4} alt="04" />
                                 <p
                                     class="font-sans text-[32px] font-medium leading-[48px]"
                                 >
-                                    Wireframing
+                                    Design
                                 </p>
                                 <p
                                     class="font-sans text-[16px] font-normal leading-[28px] max-w-[303px]"
@@ -280,361 +267,252 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Stratgey 3 -->
-                    <div class="flex flex-row items-center justify-center">
-                        <div>
-                            <img src={pointer3} alt="03" />
-
-                            <p
-                                class="font-sans text-[32px] font-medium leading-[48px]"
-                            >
-                                Design
-                            </p>
-                            <p
-                                class="font-sans text-[16px] font-normal leading-[28px] max-w-[303px]"
-                            >
-                                Euismod faucibus turpis eu gravida mi.
-                                Pellentesque et velit aliquam .
-                            </p>
-                        </div>
-                        <!-- Stratgey 4 -->
-                        <div>
-                            <img src={pointer4} alt="04" />
-                            <p
-                                class="font-sans text-[32px] font-medium leading-[48px]"
-                            >
-                                Design
-                            </p>
-                            <p
-                                class="font-sans text-[16px] font-normal leading-[28px] max-w-[303px]"
-                            >
-                                Euismod faucibus turpis eu gravida mi.
-                                Pellentesque et velit aliquam .
-                            </p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- View our projects -->
-    <div class="max-w-[1280px] m-auto pt-[128px] flex flex-col pb-[128px]">
-        <!-- inner Div -->
-        <div>
-            <div
-                class="flex sm:flex-col lg:flex-row items-center justify-between"
-            >
-                <div class="font-sans text-[48px] font-semibold leading-[64px]">
-                    <p>View our projects</p>
-                </div>
-                <div class="flex flex-row items-center gap-[16px]">
-                    <a
-                        href="/"
-                        class="font-sans text-[16px] font-medium leading-[28px]"
-                        >View More</a
-                    >
-                    <svg
-                        width="25"
-                        height="12"
-                        viewBox="0 0 25 12"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
-                            fill="#282938"
-                        />
-                    </svg>
-                </div>
-            </div>
-            <!-- View our projects Imaged -->
-            <div
-                class="flex lg:flex-row gap-[31px] sm:flex-col sm:items-center pt-[64px]"
-            >
-                <div>
-                    <img
-                        src={ViewProjects}
-                        alt=""
-                        class="sm:max-w-[405px] md:max-w-[405px] lg:max-w-[843px]"
-                    />
-                </div>
-                <div class="flex flex-col items-center gap-[32px]">
-                    <img src={HoverOverlay} alt="" />
-                    <img src={Card} alt="" />
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Features -->
-    <div class="flex flex-col items-center bg-[#F4F6FC] pb-[128px] gap-[24px]">
-        <p class="font-sans text-[16px] font-medium leading-[28px] pt-[128px]">
-            Features
-        </p>
-        <p
-            class="font-sans text-[48px] font-semibold leading-[64px] max-w-[630px] text-center pb-[47px]"
-        >
-            Design that solves problems, one product at a time
-        </p>
-        <!-- Cards -->
-        <div
-        class="grid grid-cols-3 gap-x-[32px] gap-y-[24px]"
-        
-        >
-            {#each cards as card}
-                <div
-                    id="cards"
-                >
-                <div class="bg-white max-w-[405px] pr-[32.58px] pl-[48.35px] pb-[48px] pt-[58px] flex flex-row">
-                    <div>
-                        {@html card.svg}
-                        <p class="pt-[22.08px] pb-[12px] font-sans text-[24px] font-medium leading-[36px] pt-[128px]">{card.heading}</p>
-                        <p class="font-sans text-[16px] font-normal leading-[28px] text-[#282938]/[0.699999988079071]">{card.para}</p>
-                    </div>
-
-                </div>
-                
-           
-                </div>
-            {/each}
-        </div>
-    </div>
-
-    <!-- What our clients say about us -->
-    <div
-        class="flex flex-row justify-center gap-[110px] pl-[160px] pr-[160px] pt-[128px] pb-[128px] bg-[#F4F6FC]/[0.5]"
-    >
-        <!-- Div1 -->
-        <div>
-            <p
-                class="font-sans text-[38px] font-semibold leading-[56px] max-w-[327px]"
-            >
-                What our clients say about us
-            </p>
-            <p
-                class="font-sans text-[16px] font-normal leading-[28px] max-w-[327px] opacity-[0.699999988079071]"
-            >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
-            </p>
-        </div>
-        <!-- Div 2 -->
-        <div class="flex flex-col gap-[48px]">
-            <p
-                class="font-sans text-[32px] font-medium leading-[48px] max-w-[843px]"
-            >
-                "The best agency we’ve worked with so far. They understand our
-                product and are able to add new features with a great focus."
-            </p>
-            <div class="flex flex-row justify-between">
-                <div class="flex flex-row gap-[14px] items-center">
-                    <div>
-                        <img src={JennyWilson} alt="JennyWilson" />
-                    </div>
-                    <div>
-                        <p
-                            class="font-sans text-[18px] font-medium leading-[32px]"
-                        >
-                            Jenny Wilson
-                        </p>
-                        <p
-                            class="font-sans text-[12px] font-medium leading-[28px]"
-                        >
-                            Vice President
-                        </p>
-                    </div>
-                </div>
-                <div class="flex flex-row">
-                    <svg
-                        width="49"
-                        height="48"
-                        viewBox="0 0 49 48"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <ellipse
-                            cx="24.1"
-                            cy="24"
-                            rx="24.0997"
-                            ry="24"
-                            transform="rotate(-180 24.1 24)"
-                            fill="white"
-                        />
-                        <path
-                            opacity="0.6"
-                            d="M28.5864 13L30.0005 16.2195L20.97 23.9106L30.0005 31.7805L28.5864 35L17.0005 24.626L17.0005 22.8374L28.5864 13Z"
-                            fill="#282938"
-                        />
-                    </svg>
-
-                    <svg
-                        width="49"
-                        height="48"
-                        viewBox="0 0 49 48"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <ellipse
-                            cx="24.1002"
-                            cy="24"
-                            rx="24.0997"
-                            ry="24"
-                            fill="#5239FA"
-                        />
-                        <path
-                            d="M18.4146 35L17.0005 31.7805L26.031 24.0894L17.0005 16.2195L18.4146 13L30.0005 23.374V25.1626L18.4146 35Z"
-                            fill="white"
-                        />
-                    </svg>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Frequently asked questions -->
-    <div
-        class="flex gap-[136px] pt-[128px] pb-[128px] justify-center sm:flex-col sm:items-center md:flex-col md:items-center lg:flex-col lg:items-center xl:flex-row xl:items-start"
-    >
-        <!-- Heading -->
-        <div>
-            <p class="font-sans text-[38px] font-semibold leading-[56px]">
-                Frequently asked questions
-            </p>
-            <p
-                class="font-sans text-[18px] font-medium leading-[32px] text-[#2405F2]/[0.8700000047683716]"
-            >
-                Contact us for more info
-            </p>
-        </div>
-        <!-- FAQs -->
-        <div class="sm:max-w-[646px] md:max-w-[1600px] lg:max-w-[1600px] ">
-            <div class="flex flex-row justify-between ">
-                <div>
-                    <p
-                        class="font-sans text-[24px] font-medium leading-[36px] text-[#2405F2]"
-                    >
-                        01
-                    </p>
-                </div>
-                <div class="pl-[59px]">
-                    <p class="font-sans text-[24px] font-medium leading-[36px]">
-                        How much time does it take?
-                    </p>
-                    <p
-                        class="font-sans text-[18px] font-medium leading-[32px] max-w-[624px] pb-[48px] pr-[89.68px]"
-                    >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                    </p>
-                </div>
-                <svg
-                    width="14"
-                    height="14"
-                    viewBox="0 0 14 14"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                >
-                    <path
-                        opacity="0.7"
-                        d="M12.1495 13.1605L7.12057 8.1316L1.96717 13.285L0.711315 12.0292L5.86472 6.87575L0.835794 1.84682L1.84269 0.839932L6.87161 5.86886L12.025 0.715453L13.2809 1.9713L8.12746 7.12471L13.1564 12.1536L12.1495 13.1605Z"
-                        fill="#282938"
-                    />
-                </svg>
-            </div>
-            <div class="max-w-[843px] bg-[#ECECF1] min-h-[2px]" />
-
-            <div class="flex flex-row items-center pt-[32px] pb-[32px]">
-                <p
-                    class="font-sans text-[24px] font-medium leading-[36px] text-[#2405F2]"
-                >
-                    02
-                </p>
-                <p
-                    class="font-sans text-[24px] font-medium leading-[36px] pl-[53px] pr-[241px]"
-                >
-                    What is your class naming convention?
-                </p>
-                <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                >
-                    <path
-                        opacity="0.7"
-                        d="M16 8.71198H8.88802V16H7.11198V8.71198H0V7.28802H7.11198V0H8.88802V7.28802H16V8.71198Z"
-                        fill="#282938"
-                    />
-                </svg>
-            </div>
-            <div class="max-w-[843px] bg-[#ECECF1] min-h-[2px]" />
-
-            <!-- <div > -->
-            <div class="flex flex-row items- pt-[32px] pb-[32px]">
-                <p
-                    class="font-sans text-[24px] font-medium leading-[36px] text-[#2405F2]"
-                >
-                    03
-                </p>
-                <p
-                    class="font-sans text-[24px] font-medium leading-[36px] pl-[55px] pr-[365px]"
-                >
-                    How do you communicate?
-                </p>
-                <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                >
-                    <path
-                        opacity="0.7"
-                        d="M16 8.71198H8.88802V16H7.11198V8.71198H0V7.28802H7.11198V0H8.88802V7.28802H16V8.71198Z"
-                        fill="#282938"
-                    />
-                </svg>
-            </div>
-            <!-- </div> -->
-            <div class="max-w-[843px] bg-[#ECECF1] min-h-[2px]" />
-
+        <!-- View our projects -->
+        <div class="max-w-[1280px] m-auto pt-[128px] flex flex-col pb-[128px]">
+            <!-- inner Div -->
             <div>
-                <div class="flex flex-row items-center pt-[32px] pb-[32px]">
-                    <p
-                        class="font-sans text-[24px] font-medium leading-[36px] text-[#2405F2]"
+                <div
+                    class="flex sm:flex-col lg:flex-row items-center justify-between"
+                >
+                    <div
+                        class="font-sans text-[48px] font-semibold leading-[64px]"
                     >
-                        04
-                    </p>
-                    <p
-                        class="font-sans text-[24px] font-medium leading-[36px] pl-[55px] pr-[203px]"
-                    >
-                        I have a bigger project. Can you handle it?
-                    </p>
+                        <p>View our projects</p>
+                    </div>
+                    <div class="flex flex-row items-center gap-[16px]">
+                        <a
+                            href="/"
+                            class="font-sans text-[16px] font-medium leading-[28px]"
+                            >View More</a
+                        >
+                        <svg
+                            width="25"
+                            height="12"
+                            viewBox="0 0 25 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                                fill="#282938"
+                            />
+                        </svg>
+                    </div>
+                </div>
+                <!-- View our projects Imaged -->
+                <div
+                    class="flex lg:flex-row gap-[31px] sm:flex-col sm:items-center pt-[64px]"
+                >
+                    <div>
+                        <img
+                            src={ViewProjects}
+                            alt=""
+                            class="sm:max-w-[405px] md:max-w-[405px] lg:max-w-[843px]"
+                        />
+                    </div>
+                    <div class="flex flex-col items-center gap-[32px]">
+                        <img src={HoverOverlay} alt="" />
+                        <img src={Card} alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features -->
+        <div
+            class="flex flex-col items-center bg-[#F4F6FC] pb-[128px] gap-[24px]"
+        >
+            <p
+                class="font-sans text-[16px] font-medium leading-[28px] pt-[128px]"
+            >
+                Features
+            </p>
+            <p
+                class="font-sans text-[48px] font-semibold leading-[64px] max-w-[630px] text-center pb-[47px]"
+            >
+                Design that solves problems, one product at a time
+            </p>
+            <!-- Cards -->
+            <div class="grid grid-cols-3 gap-x-[32px] gap-y-[24px]">
+                {#each cards as card}
+                    <div id="cards">
+                        <div
+                            class="bg-white max-w-[405px] pr-[32.58px] pl-[48.35px] pb-[48px] pt-[58px] flex flex-row"
+                        >
+                            <div>
+                                {@html card.svg}
+                                <p
+                                    class="pt-[22.08px] pb-[12px] font-sans text-[24px] font-medium leading-[36px] pt-[128px]"
+                                >
+                                    {card.heading}
+                                </p>
+                                <p
+                                    class="font-sans text-[16px] font-normal leading-[28px] text-[#282938]/[0.699999988079071]"
+                                >
+                                    {card.para}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                {/each}
+            </div>
+        </div>
+
+        <!-- What our clients say about us -->
+        <div
+            class="flex flex-row justify-center gap-[110px] pl-[160px] pr-[160px] pt-[128px] pb-[128px] bg-[#F4F6FC]/[0.5]"
+        >
+            <!-- Div1 -->
+            <div>
+                <p
+                    class="font-sans text-[38px] font-semibold leading-[56px] max-w-[327px]"
+                >
+                    What our clients say about us
+                </p>
+                <p
+                    class="font-sans text-[16px] font-normal leading-[28px] max-w-[327px] opacity-[0.699999988079071]"
+                >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
+                </p>
+            </div>
+            <!-- Div 2 -->
+            <div class="flex flex-col gap-[48px]">
+                <p
+                    class="font-sans text-[32px] font-medium leading-[48px] max-w-[843px]"
+                >
+                    "The best agency we’ve worked with so far. They understand
+                    our product and are able to add new features with a great
+                    focus."
+                </p>
+                <div class="flex flex-row justify-between">
+                    <div class="flex flex-row gap-[14px] items-center">
+                        <div>
+                            <img src={JennyWilson} alt="JennyWilson" />
+                        </div>
+                        <div>
+                            <p
+                                class="font-sans text-[18px] font-medium leading-[32px]"
+                            >
+                                Jenny Wilson
+                            </p>
+                            <p
+                                class="font-sans text-[12px] font-medium leading-[28px]"
+                            >
+                                Vice President
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex flex-row">
+                        <svg
+                            width="49"
+                            height="48"
+                            viewBox="0 0 49 48"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <ellipse
+                                cx="24.1"
+                                cy="24"
+                                rx="24.0997"
+                                ry="24"
+                                transform="rotate(-180 24.1 24)"
+                                fill="white"
+                            />
+                            <path
+                                opacity="0.6"
+                                d="M28.5864 13L30.0005 16.2195L20.97 23.9106L30.0005 31.7805L28.5864 35L17.0005 24.626L17.0005 22.8374L28.5864 13Z"
+                                fill="#282938"
+                            />
+                        </svg>
+
+                        <svg
+                            width="49"
+                            height="48"
+                            viewBox="0 0 49 48"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <ellipse
+                                cx="24.1002"
+                                cy="24"
+                                rx="24.0997"
+                                ry="24"
+                                fill="#5239FA"
+                            />
+                            <path
+                                d="M18.4146 35L17.0005 31.7805L26.031 24.0894L17.0005 16.2195L18.4146 13L30.0005 23.374V25.1626L18.4146 35Z"
+                                fill="white"
+                            />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Frequently asked questions -->
+        <div
+            class="flex gap-[136px] pt-[128px] pb-[128px] justify-center sm:flex-col sm:items-center md:flex-col md:items-center lg:flex-col lg:items-center xl:flex-row xl:items-start"
+        >
+            <!-- Heading -->
+            <div>
+                <p class="font-sans text-[38px] font-semibold leading-[56px]">
+                    Frequently asked questions
+                </p>
+                <p
+                    class="font-sans text-[18px] font-medium leading-[32px] text-[#2405F2]/[0.8700000047683716]"
+                >
+                    Contact us for more info
+                </p>
+            </div>
+            <!-- FAQs -->
+            <div class="sm:max-w-[646px] md:max-w-[1600px] lg:max-w-[1600px]">
+                <div class="flex flex-row justify-between">
+                    <div>
+                        <p
+                            class="font-sans text-[24px] font-medium leading-[36px] text-[#2405F2]"
+                        >
+                            01
+                        </p>
+                    </div>
+                    <div class="pl-[59px]">
+                        <p
+                            class="font-sans text-[24px] font-medium leading-[36px]"
+                        >
+                            How much time does it take?
+                        </p>
+                        <p
+                            class="font-sans text-[18px] font-medium leading-[32px] max-w-[624px] pb-[48px] pr-[89.68px]"
+                        >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.
+                        </p>
+                    </div>
                     <svg
-                        width="16"
-                        height="16"
-                        viewBox="0 0 16 16"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                     >
                         <path
                             opacity="0.7"
-                            d="M16 8.71198H8.88802V16H7.11198V8.71198H0V7.28802H7.11198V0H8.88802V7.28802H16V8.71198Z"
+                            d="M12.1495 13.1605L7.12057 8.1316L1.96717 13.285L0.711315 12.0292L5.86472 6.87575L0.835794 1.84682L1.84269 0.839932L6.87161 5.86886L12.025 0.715453L13.2809 1.9713L8.12746 7.12471L13.1564 12.1536L12.1495 13.1605Z"
                             fill="#282938"
                         />
                     </svg>
                 </div>
-            </div>
-            <div class="max-w-[843px] bg-[#ECECF1] min-h-[2px]" />
+                <div class="max-w-[843px] bg-[#ECECF1] min-h-[2px]" />
 
-            <div>
-                <div class="flex flex-row items-center pt-[32px]">
+                <div class="flex flex-row items-center pt-[32px] pb-[32px]">
                     <p
                         class="font-sans text-[24px] font-medium leading-[36px] text-[#2405F2]"
                     >
-                        05
+                        02
                     </p>
                     <p
-                        class="font-sans text-[24px] font-medium leading-[36px] pl-[55px] pr-[241px]"
+                        class="font-sans text-[24px] font-medium leading-[36px] pl-[53px] pr-[241px]"
                     >
                         What is your class naming convention?
                     </p>
@@ -652,246 +530,310 @@
                         />
                     </svg>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- Building stellar websites for early startups IMAGE -->
+                <div class="max-w-[843px] bg-[#ECECF1] min-h-[2px]" />
 
-    <div
-        class="flex flex-row justify-center m-auto w-[1280px] bg-[#1C1E53]/[0.50] sm:flex-col sm:w-[640px] md:flex-col md:w-[656px] lg:flex-col lg:w-[656px] xl:flex-row xl:w-[656px]"
-    >
-        <div class="relative">
-            <!-- Img -->
-            <!-- <div class="bg-cover" style="backgound-image:url('/src/lib/assets/woman-writing-on-paper.png')"></div> -->
-
-            <img
-                class="max-w-full lg:max-w-[656px]"
-                src={womanWriting}
-                alt="woman-writing-on-paper"
-            />
-            <div class="absolute top-[96px] left-[96px]">
-                <p
-                    class="font-sans text-[54px] font-semibold leading-[74px] max-w-[464px] text-white"
-                >
-                    Building stellar websites for early startups
-                </p>
-                <p
-                    class="font-sans text-[16px] font-medium leading-[28px] max-w-[464px] text-white"
-                >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua ut enim.
-                </p>
-            </div>
-        </div>
-        <!--  Send an Inquiry-->
-        <div
-            class="bg-[#1C1E53] flex flex-col justify-center pl-[96px] pr-[96px] gap-[16px]"
-        >
-            <p
-                class="text-white font-sans text-[32px] font-medium leading-[48px] pb-[16px]"
-            >
-                Send inquiry
-            </p>
-            <p
-                class="text-white font-sans text-[16px] font-medium leading-[28px] pr-[96px] pb-[40px]"
-            >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore.
-            </p>
-            <input
-                type="text"
-                placeholder="Your Name"
-                class="border-solid bg-[#1C1E53] border-[2px] border-gray-500 rounded py-[18px] pl-[32px] w-[432px]"
-            />
-            <input
-                type="text"
-                placeholder="Email"
-                class="border-solid bg-[#1C1E53] border-[2px] border-gray-500 rounded py-[18px] pl-[32px] w-[432px]"
-            />
-            <input
-                type="text"
-                placeholder="Paste your Figma design URL"
-                class="border-solid bg-[#1C1E53] border-[2px] border-gray-500 rounded py-[18px] pl-[32px] w-[432px]"
-            />
-            <div
-                class="flex flex-col font-sans text-[18px] font-medium leading-[32px] gap-[28px]"
-            >
-                <button
-                    class="bg-[#FCD980] rounded-[41px] py-[15px] px-[51px] max-w-[432px]"
-                    >Send an Inquiry</button
-                >
-                <div
-                    class="flex flex-row items-center gap-[16px] text-white pl-[96px]"
-                >
-                    <p>Get in touch with us</p>
+                <!-- <div > -->
+                <div class="flex flex-row items- pt-[32px] pb-[32px]">
+                    <p
+                        class="font-sans text-[24px] font-medium leading-[36px] text-[#2405F2]"
+                    >
+                        03
+                    </p>
+                    <p
+                        class="font-sans text-[24px] font-medium leading-[36px] pl-[55px] pr-[365px]"
+                    >
+                        How do you communicate?
+                    </p>
                     <svg
-                        width="25"
-                        height="12"
-                        viewBox="0 0 25 12"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                     >
                         <path
-                            d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
-                            fill="#F4F6FC"
+                            opacity="0.7"
+                            d="M16 8.71198H8.88802V16H7.11198V8.71198H0V7.28802H7.11198V0H8.88802V7.28802H16V8.71198Z"
+                            fill="#282938"
                         />
                     </svg>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our blog -->
-    <div
-        class="flex flex-col justify-start pt-[128px] max-w-[1280px] m-auto sm:items-center md:items-start"
-    >
-        <p class="font-sans text-[48px] font-semibold leading-[64px]">
-            Our blog
-        </p>
-        <!-- Cards -->
-   
-                <div
-                    class="flex flex-row gap-[50px] sm:flex-col sm:items-center md:flex-row md:items-center lg:flex-row"
-                    id="cards"
-                >
-                    <div
-                        class="bg-white max-w-[405px] pb-[48px] pt-[58px]"
-                    >
-                        <img
-                            src={businessman}
-                            alt=""
-                        />
+                <!-- </div> -->
+                <div class="max-w-[843px] bg-[#ECECF1] min-h-[2px]" />
 
+                <div>
+                    <div class="flex flex-row items-center pt-[32px] pb-[32px]">
                         <p
-                            class="font-sans text-[16px] font-medium leading-[28px] text-[#282938]/[0.699999988079071]"
+                            class="font-sans text-[24px] font-medium leading-[36px] text-[#2405F2]"
                         >
-                            19 Jan 2022
+                            04
                         </p>
                         <p
-                            class="font-sans text-[24px] font-medium leading-[36px]"
+                            class="font-sans text-[24px] font-medium leading-[36px] pl-[55px] pr-[203px]"
                         >
-                            How one Webflow user grew his single person
-                            consultancy from $0-100K in 14 months
+                            I have a bigger project. Can you handle it?
                         </p>
-                        <p
-                            class="font-sans text-[16px] font-normal leading-[28px] text-[#282938]/[0.699999988079071]"
+                        <svg
+                            width="16"
+                            height="16"
+                            viewBox="0 0 16 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
                         >
-                            See how pivoting to Webflow changed one person’s
-                            sales strategy and allowed him to attract
-                        </p>
-                        <div class="flex flex-row items-center gap-[14px]">
-                            <a
-                                href="/"
-                                class="font-sans text-[16px] font-normal leading-[28px]"
-                                >Read More</a
-                            >
-                            <svg
-                                width="25"
-                                height="12"
-                                viewBox="0 0 25 12"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
-                                    fill="#282938"
-                                />
-                            </svg>
-                        </div>
-                    </div>
-
-                    <div
-                        class="bg-white max-w-[405px] pb-[48px] pt-[58px]"
-                    >
-                        <img
-                            src={macbook}
-                            alt=""
-                        />
-
-                        <p
-                            class="font-sans text-[16px] font-medium leading-[28px] text-[#282938]/[0.699999988079071]"
-                        >
-                            19 Jan 2022
-                        </p>
-                        <p
-                            class="font-sans text-[24px] font-medium leading-[36px]"
-                        >
-                            How one Webflow user grew his single person
-                            consultancy from $0-100K in 14 months
-                        </p>
-                        <p
-                            class="font-sans text-[16px] font-normal leading-[28px] text-[#282938]/[0.699999988079071]"
-                        >
-                            See how pivoting to Webflow changed one person’s
-                            sales strategy and allowed him to attract
-                        </p>
-                        <div class="flex flex-row items-center gap-[14px]">
-                            <a
-                                href="/"
-                                class="font-sans text-[16px] font-normal leading-[28px]"
-                                >Read More</a
-                            >
-                            <svg
-                                width="25"
-                                height="12"
-                                viewBox="0 0 25 12"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
-                                    fill="#282938"
-                                />
-                            </svg>
-                        </div>
-                    </div>
-                    <div
-                        class="bg-white max-w-[405px] pb-[48px] pt-[58px]"
-                    >
-                        <img
-                            src={applemonitors}
-                            alt=""
-                        />
-
-                        <p
-                            class="font-sans text-[16px] font-medium leading-[28px] text-[#282938]/[0.699999988079071]"
-                        >
-                            19 Jan 2022
-                        </p>
-                        <p
-                            class="font-sans text-[24px] font-medium leading-[36px]"
-                        >
-                            How one Webflow user grew his single person
-                            consultancy from $0-100K in 14 months
-                        </p>
-                        <p
-                            class="font-sans text-[16px] font-normal leading-[28px] text-[#282938]/[0.699999988079071]"
-                        >
-                            See how pivoting to Webflow changed one person’s
-                            sales strategy and allowed him to attract
-                        </p>
-                        <div class="flex flex-row items-center gap-[14px]">
-                            <a
-                                href="/"
-                                class="font-sans text-[16px] font-normal leading-[28px]"
-                                >Read More</a
-                            >
-                            <svg
-                                width="25"
-                                height="12"
-                                viewBox="0 0 25 12"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
-                                    fill="#282938"
-                                />
-                            </svg>
-                        </div>
+                            <path
+                                opacity="0.7"
+                                d="M16 8.71198H8.88802V16H7.11198V8.71198H0V7.28802H7.11198V0H8.88802V7.28802H16V8.71198Z"
+                                fill="#282938"
+                            />
+                        </svg>
                     </div>
                 </div>
-         
-    </div>
-</main>
+                <div class="max-w-[843px] bg-[#ECECF1] min-h-[2px]" />
+
+                <div>
+                    <div class="flex flex-row items-center pt-[32px]">
+                        <p
+                            class="font-sans text-[24px] font-medium leading-[36px] text-[#2405F2]"
+                        >
+                            05
+                        </p>
+                        <p
+                            class="font-sans text-[24px] font-medium leading-[36px] pl-[55px] pr-[241px]"
+                        >
+                            What is your class naming convention?
+                        </p>
+                        <svg
+                            width="16"
+                            height="16"
+                            viewBox="0 0 16 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                opacity="0.7"
+                                d="M16 8.71198H8.88802V16H7.11198V8.71198H0V7.28802H7.11198V0H8.88802V7.28802H16V8.71198Z"
+                                fill="#282938"
+                            />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Building stellar websites for early startups IMAGE -->
+
+        <div
+            class="flex flex-row justify-center m-auto w-[1280px] bg-[#1C1E53]/[0.50] sm:flex-col sm:w-[640px] md:flex-col md:w-[656px] lg:flex-col lg:w-[656px] xl:flex-row xl:w-[656px]"
+        >
+            <div class="relative">
+                <!-- Img -->
+                <!-- <div class="bg-cover" style="backgound-image:url('/src/lib/assets/woman-writing-on-paper.png')"></div> -->
+
+                <img
+                    class="max-w-full lg:max-w-[656px]"
+                    src={womanWriting}
+                    alt="woman-writing-on-paper"
+                />
+                <div class="absolute top-[96px] left-[96px]">
+                    <p
+                        class="font-sans text-[54px] font-semibold leading-[74px] max-w-[464px] text-white"
+                    >
+                        Building stellar websites for early startups
+                    </p>
+                    <p
+                        class="font-sans text-[16px] font-medium leading-[28px] max-w-[464px] text-white"
+                    >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua ut enim.
+                    </p>
+                </div>
+            </div>
+            <!--  Send an Inquiry-->
+            <div
+                class="bg-[#1C1E53] flex flex-col justify-center pl-[96px] pr-[96px] gap-[16px]"
+            >
+                <p
+                    class="text-white font-sans text-[32px] font-medium leading-[48px] pb-[16px]"
+                >
+                    Send inquiry
+                </p>
+                <p
+                    class="text-white font-sans text-[16px] font-medium leading-[28px] pr-[96px] pb-[40px]"
+                >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore.
+                </p>
+                <input
+                    type="text"
+                    placeholder="Your Name"
+                    class="border-solid bg-[#1C1E53] border-[2px] border-gray-500 rounded py-[18px] pl-[32px] w-[432px]"
+                />
+                <input
+                    type="text"
+                    placeholder="Email"
+                    class="border-solid bg-[#1C1E53] border-[2px] border-gray-500 rounded py-[18px] pl-[32px] w-[432px]"
+                />
+                <input
+                    type="text"
+                    placeholder="Paste your Figma design URL"
+                    class="border-solid bg-[#1C1E53] border-[2px] border-gray-500 rounded py-[18px] pl-[32px] w-[432px]"
+                />
+                <div
+                    class="flex flex-col font-sans text-[18px] font-medium leading-[32px] gap-[28px]"
+                >
+                    <button
+                        class="bg-[#FCD980] rounded-[41px] py-[15px] px-[51px] max-w-[432px]"
+                        >Send an Inquiry</button
+                    >
+                    <div
+                        class="flex flex-row items-center gap-[16px] text-white pl-[96px]"
+                    >
+                        <p>Get in touch with us</p>
+                        <svg
+                            width="25"
+                            height="12"
+                            viewBox="0 0 25 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                                fill="#F4F6FC"
+                            />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our blog -->
+        <div
+            class="flex flex-col justify-start pt-[128px] max-w-[1280px] m-auto sm:items-center md:items-start"
+        >
+            <p class="font-sans text-[48px] font-semibold leading-[64px]">
+                Our blog
+            </p>
+            <!-- Cards -->
+
+            <div
+                class="flex flex-row gap-[50px] sm:flex-col sm:items-center md:flex-row md:items-center lg:flex-row"
+                id="cards"
+            >
+                <div class="bg-white max-w-[405px] pb-[48px] pt-[58px]">
+                    <img src={businessman} alt="" />
+
+                    <p
+                        class="font-sans text-[16px] font-medium leading-[28px] text-[#282938]/[0.699999988079071]"
+                    >
+                        19 Jan 2022
+                    </p>
+                    <p class="font-sans text-[24px] font-medium leading-[36px]">
+                        How one Webflow user grew his single person consultancy
+                        from $0-100K in 14 months
+                    </p>
+                    <p
+                        class="font-sans text-[16px] font-normal leading-[28px] text-[#282938]/[0.699999988079071]"
+                    >
+                        See how pivoting to Webflow changed one person’s sales
+                        strategy and allowed him to attract
+                    </p>
+                    <div class="flex flex-row items-center gap-[14px]">
+                        <a
+                            href="/"
+                            class="font-sans text-[16px] font-normal leading-[28px]"
+                            >Read More</a
+                        >
+                        <svg
+                            width="25"
+                            height="12"
+                            viewBox="0 0 25 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                                fill="#282938"
+                            />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="bg-white max-w-[405px] pb-[48px] pt-[58px]">
+                    <img src={macbook} alt="" />
+
+                    <p
+                        class="font-sans text-[16px] font-medium leading-[28px] text-[#282938]/[0.699999988079071]"
+                    >
+                        19 Jan 2022
+                    </p>
+                    <p class="font-sans text-[24px] font-medium leading-[36px]">
+                        How one Webflow user grew his single person consultancy
+                        from $0-100K in 14 months
+                    </p>
+                    <p
+                        class="font-sans text-[16px] font-normal leading-[28px] text-[#282938]/[0.699999988079071]"
+                    >
+                        See how pivoting to Webflow changed one person’s sales
+                        strategy and allowed him to attract
+                    </p>
+                    <div class="flex flex-row items-center gap-[14px]">
+                        <a
+                            href="/"
+                            class="font-sans text-[16px] font-normal leading-[28px]"
+                            >Read More</a
+                        >
+                        <svg
+                            width="25"
+                            height="12"
+                            viewBox="0 0 25 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                                fill="#282938"
+                            />
+                        </svg>
+                    </div>
+                </div>
+                <div class="bg-white max-w-[405px] pb-[48px] pt-[58px]">
+                    <img src={applemonitors} alt="" />
+
+                    <p
+                        class="font-sans text-[16px] font-medium leading-[28px] text-[#282938]/[0.699999988079071]"
+                    >
+                        19 Jan 2022
+                    </p>
+                    <p class="font-sans text-[24px] font-medium leading-[36px]">
+                        How one Webflow user grew his single person consultancy
+                        from $0-100K in 14 months
+                    </p>
+                    <p
+                        class="font-sans text-[16px] font-normal leading-[28px] text-[#282938]/[0.699999988079071]"
+                    >
+                        See how pivoting to Webflow changed one person’s sales
+                        strategy and allowed him to attract
+                    </p>
+                    <div class="flex flex-row items-center gap-[14px]">
+                        <a
+                            href="/"
+                            class="font-sans text-[16px] font-normal leading-[28px]"
+                            >Read More</a
+                        >
+                        <svg
+                            width="25"
+                            height="12"
+                            viewBox="0 0 25 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                                fill="#282938"
+                            />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </div>
