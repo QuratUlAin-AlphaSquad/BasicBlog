@@ -123,6 +123,8 @@
     ];
 </script>
 
+<!-- <button class="bg-gray-600 rounded transition hover:bg-yellow-800 ease-in-out duration-300">Transition</button> -->
+
 <!-- HEADER -->
 <div class="w-full">
     <!-- <div class="flex items-start justify-around"> -->
