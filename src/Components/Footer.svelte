@@ -4,7 +4,7 @@
 
 
 <footer>
-    <div class="bg-[#1C1E53] flex flex-row xs:py-16 xs:gap-16 md:gap-[142px] justify-center pt-[196px] xs:flex-col sm:items-center sm:pb-[196px] md:flex-col md:items-center md:pb-[196px] lg:flex-row md:pt-36">
+    <div class="bg-[#1C1E53] flex flex-row xs:py-16 xs:px-5 lg:py-0 lg:pt-[104px] xs:gap-16 md:gap-[142px] justify-center pt-[196px] xs:flex-col sm:items-center sm:pb-[196px] md:flex-col md:items-center md:pb-[196px] lg:flex-row md:pt-36">
         <!-- Finsweet svg -->
         <div>
         <svg width="160" height="33" viewBox="0 0 160 33" fill="none" xmlns="http://www.w3.org/2000/svg">

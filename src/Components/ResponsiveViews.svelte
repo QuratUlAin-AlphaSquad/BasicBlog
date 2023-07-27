@@ -127,10 +127,10 @@
 <div class="w-full">
     <!-- <div class="flex items-start justify-around"> -->
     <div
-        class="min-h-[50px] md:p-8 w-full bg-[#1C1E53] flex flex-col justify-center items-center md:flex md:flex-col lg:flex-row lg:justify-around md:justify-center md:items-center sm:flex-row sm:justify-center"
+        class="min-h-[50px] md:p-8 w-full bg-[#1C1E53]  flex flex-col justify-center items-center md:flex md:flex-col lg:flex-row lg:justify-around md:justify-center md:items-center sm:flex-row sm:justify-center"
     >
         <!-- svg -->
-        <div class="relative w-full justify-between flex">
+        <div class="relative lg:max-w-[1600px] w-full justify-between flex">
             <div class="flex w-full justify-between">
                 <svg
                     width="122"
@@ -247,12 +247,12 @@
             class="hidden lg:flex lg:flex-row lg:gap-[8px] flex-col justify-center items-center"
         >
             <ul class=" lg:flex lg:flex-row gap-[32px] text-[#BBBBCB]">
-                <li class="text-white">Home</li>
-                <a href="/">About us</a>
-                <li>Features</li>
-                <li>Pricing</li>
-                <li>FAQ</li>
-                <li>Blog</li>
+                <li class="text-white cursor-pointer">Home</li>
+                <a href="/" class="cursor-pointer">About us</a>
+                <li class="cursor-pointer">Features</li>
+                <li class="cursor-pointer">Pricing</li>
+                <li class="cursor-pointer">FAQ</li>
+                <li class="cursor-pointer">Blog</li>
             </ul>
             <button
                 class=" w-full border-solid lg:border-2 border-gray-600 rounded-full px-[28px] py-[8px] lg:px-[28px] lg:py-[8px] lg:w-[145px] text-[#BBBBCB]"
@@ -283,14 +283,14 @@
                 <!-- btn view our work div -->
                 <div class="flex xs:flex-col md:flex-row gap-10 ">
                     <button
-                        class="bg-[#FCD980] rounded-full xs:py-2 xs:px-5 md:py-4 md:px-14 text-black"
+                        class="bg-[#FCD980] rounded-full xs:py-2 xs:px-5 md:py-4 md:px-14 text-black hover:bg-[rgb(223,184,87)]"
                         >View our work</button
                     >
                     <div
-                        class="flex flex-row justify-center items-center gap-4"
+                        class="flex flex-row justify-center items-center gap-4 "
                     >
-                        <p>View Pricing</p>
-                        <svg
+                        <a class="cursor-pointer" href="/">View Pricing</a>
+                        <svg class=" cursor-pointer"
                             width="25"
                             height="12"
                             viewBox="0 0 25 12"
@@ -306,133 +306,142 @@
                 </div>
             </div>
             <div>
-                <img src={Illustration} alt="" />
+                <img src={Illustration} alt=""/>
             </div>
         </div>
     </div>
 </div>
 <!-- ////////// Content -->
-<div class="m-auto max-w-[1600px]">
-    <div class=" bg-[#F4F6FC] xs:py-5 md:py-32 xs:px-5">
-        <!-- How we work: Main Div -->
-        <div
-            class="flex xs:flex-col xs:justify-center xs:items-center lg:flex-row justify-center xs:gap-7 md:gap-36"
-        >
-            <!-- How we work -->
-            <div class="flex flex-col justify-center">
-                <p
-                    class="xs:text-[24px] font-sans md:text-[48px] font-semibold leading-[64px]"
-                >
-                    How we work
-                </p>
-                <p
-                    class="xs:text-[12px] font-sans md:text-[16px] font-normal leading-[28px] opacity-70 max-w-[405px]"
-                >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
-                </p>
-                <div class="flex xs:flex-row md:flex-row items-center gap-4">
-                    <div>
-                        <p
-                            class="xs:text-[14px] font-sans md:text-[18px] font-semibold leading-[64px] text-[#2405F2]"
-                        >
-                            Get in touch with us
-                        </p>
-                    </div>
-                    <div>
-                        <svg
-                            width="25"
-                            height="12"
-                            viewBox="0 0 25 12"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
-                                fill="#2405F2"
-                            />
-                        </svg>
-                    </div>
-                </div>
-            </div>
-            <!-- 4 steps main div -->
+<div class="bg-[#F4F6FC]">
+    <div class="m-auto max-w-[1600px]">
+        <div class="bg-[#F4F6FC] xs:py-5 md:py-32 xs:px-5 ">
+            <!-- How we work: Main Div -->
             <div
-                class="flex gap-[25px] xs:flex-col lg:flex-row md:items-center md:justify-center"
+                class="flex xs:flex-col xs:justify-center xs:items-center lg:flex-row justify-center xs:gap-7 md:gap-36"
             >
-                <!-- div 1 -->
-                <div class="flex xs:flex-col lg:flex-col gap-12 md:flex-row">
-                    <!-- Strategy -->
-                    <div>
-                        <img src={pointer1} alt="" />
-                        <p
-                            class="xs:text-[24px] font-sans md:text-[32px] font-medium leading-[48px]"
-                        >
-                            Strategy
-                        </p>
-                        <p
-                            class="max-w-[303px] xs:text-[12px] font-sans md:text-[16px] font-normal leading-[28px] opacity-70"
-                        >
-                            Euismod faucibus turpis eu gravida mi. Pellentesque
-                            et velit aliquam .
-                        </p>
-                    </div>
-                    <!-- Wireframing -->
-                    <div>
-                        <img src={pointer2} alt="" />
-                        <p
-                            class="xs:text-[24px] font-sans md:text-[32px] font-medium leading-[48px]"
-                        >
-                            Wireframing
-                        </p>
-                        <p
-                            class="max-w-[303px] xs:text-[12px] font-sans md:text-[16px] font-normal leading-[28px] opacity-70"
-                        >
-                            Euismod faucibus turpis eu gravida mi. Pellentesque
-                            et velit aliquam .
-                        </p>
+                <!-- How we work -->
+                <div class="flex flex-col justify-center">
+                    <p
+                        class="xs:text-[24px] font-sans md:text-[48px] font-semibold leading-[64px]"
+                    >
+                        How we work
+                    </p>
+                    <p
+                        class="xs:text-[12px] font-sans md:text-[16px] font-normal leading-[28px] opacity-70 max-w-[405px]"
+                    >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        do eiusmod tempor.
+                    </p>
+                    <div class="flex xs:flex-row md:flex-row items-center gap-4">
+                        <div>
+                            <p
+                                class="xs:text-[14px] font-sans md:text-[18px] font-semibold leading-[64px] text-[#2405F2]"
+                            >
+                                Get in touch with us
+                            </p>
+                        </div>
+                        <div>
+                            <svg
+                                width="25"
+                                height="12"
+                                viewBox="0 0 25 12"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                                    fill="#2405F2"
+                                />
+                            </svg>
+                        </div>
                     </div>
                 </div>
-                <!-- div 2 -->
-
-                <div class="flex lg:flex-col gap-12 md:flex-row xs:flex-col">
-                    <!-- Design -->
-                    <div>
-                        <img src={pointer3} alt="" />
-                        <p
-                            class="xs:text-[24px] font-sans md:text-[32px] font-medium leading-[48px]"
-                        >
-                            Design
-                        </p>
-                        <p
-                            class="max-w-[303px] xs:text-[12px] font-sans md:text-[16px] font-normal leading-[28px] opacity-70"
-                        >
-                            Euismod faucibus turpis eu gravida mi. Pellentesque
-                            et velit aliquam .
-                        </p>
+                <!-- 4 steps main div -->
+                <div
+                    class="flex gap-[25px] xs:flex-col lg:flex-row md:items-center md:justify-center"
+                >
+                    <!-- div 1 -->
+                    <div class="flex xs:flex-col lg:flex-col gap-12 md:flex-row">
+                        <!-- Strategy -->
+                        <div>
+                            <img src={pointer1} alt="" />
+                            <p
+                                class="xs:text-[24px] font-sans md:text-[32px] font-medium leading-[48px]"
+                            >
+                                Strategy
+                            </p>
+                            <p
+                                class="max-w-[303px] xs:text-[12px] font-sans md:text-[16px] font-normal leading-[28px] opacity-70"
+                            >
+                                Euismod faucibus turpis eu gravida mi. Pellentesque
+                                et velit aliquam .
+                            </p>
+                        </div>
+                        <!-- Wireframing -->
+                        <div>
+                            <img src={pointer2} alt="" />
+                            <p
+                                class="xs:text-[24px] font-sans md:text-[32px] font-medium leading-[48px]"
+                            >
+                                Wireframing
+                            </p>
+                            <p
+                                class="max-w-[303px] xs:text-[12px] font-sans md:text-[16px] font-normal leading-[28px] opacity-70"
+                            >
+                                Euismod faucibus turpis eu gravida mi. Pellentesque
+                                et velit aliquam .
+                            </p>
+                        </div>
                     </div>
-                    <!-- Development -->
-                    <div>
-                        <img src={pointer4} alt="" />
-                        <p
-                            class="xs:text-[24px] font-sans md:text-[32px] font-medium leading-[48px]"
-                        >
-                            Development
-                        </p>
-                        <p
-                            class="max-w-[303px] xs:text-[12px] font-sans md:text-[16px] font-normal leading-[28px] opacity-70"
-                        >
-                            Euismod faucibus turpis eu gravida mi. Pellentesque
-                            et velit aliquam .
-                        </p>
+                    <!-- div 2 -->
+    
+                    <div class="flex lg:flex-col gap-12 md:flex-row xs:flex-col">
+                        <!-- Design -->
+                        <div>
+                            <img src={pointer3} alt="" />
+                            <p
+                                class="xs:text-[24px] font-sans md:text-[32px] font-medium leading-[48px]"
+                            >
+                                Design
+                            </p>
+                            <p
+                                class="max-w-[303px] xs:text-[12px] font-sans md:text-[16px] font-normal leading-[28px] opacity-70"
+                            >
+                                Euismod faucibus turpis eu gravida mi. Pellentesque
+                                et velit aliquam .
+                            </p>
+                        </div>
+                        <!-- Development -->
+                        <div>
+                            <img src={pointer4} alt="" />
+                            <p
+                                class="xs:text-[24px] font-sans md:text-[32px] font-medium leading-[48px]"
+                            >
+                                Development
+                            </p>
+                            <p
+                                class="max-w-[303px] xs:text-[12px] font-sans md:text-[16px] font-normal leading-[28px] opacity-70"
+                            >
+                                Euismod faucibus turpis eu gravida mi. Pellentesque
+                                et velit aliquam .
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>    
     </div>
+
+</div>
+
+<!-- <div class="m-auto max-w-[1600px]"> -->
+   
+    <div class="m-auto max-w-[1600px] flex justify-center">
+
     <!-- View our projects -->
     <!-- View our projects :Main Div -->
 
-    <div class="flex flex-col xs:py-6 md:py-32 xs:px-4 xs:gap-2 md:gap-16">
+    <div class="flex flex-col xs:py-6 md:py-32 xs:px-4 xs:gap-2 md:gap-16 max-w-[1280px] justify-center">
         <!-- div 1 -->
         <div class="flex flex-row justify-between">
             <p
@@ -443,10 +452,11 @@
             <div class="flex flex-row justify-center items-center gap-4">
                 <a
                     href="/"
-                    class="xs:text-[14px] font-sans md:text-[16px] font-medium leading-[28px]"
+                    class="xs:text-[14px] font-sans md:text-[16px] font-medium leading-[28px]  cursor-pointer"
                     >View More</a
                 >
                 <svg
+                class=" cursor-pointer"
                     width="25"
                     height="12"
                     viewBox="0 0 25 12"
@@ -471,8 +481,10 @@
             </div>
         </div>
     </div>
+</div>
     <!-- Features -->
     <!-- Features : Main div -->
+
     <div class="bg-[#F4F6FC] xs:py-6 md:py-32 flex flex-col gap-12">
         <div class="flex flex-col justify-center items-center">
             <p class="font-sans text-[16px] font-medium leading-[28px]">
@@ -541,7 +553,7 @@
                     </div>
 
                 </div>
-                <div><svg xmlns="http://www.w3.org/2000/svg" width="109" height="48" viewBox="0 0 109 48" fill="none">
+                <div><svg class="cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="109" height="48" viewBox="0 0 109 48" fill="none">
                     <ellipse cx="84.1002" cy="24" rx="24.0997" ry="24" fill="#5239FA"/>
                     <path d="M78.4146 35L77.0005 31.7805L86.031 24.0894L77.0005 16.2195L78.4146 13L90.0005 23.374V25.1626L78.4146 35Z" fill="white"/>
                     <ellipse cx="24.6" cy="24" rx="24.5997" ry="24" transform="rotate(-180 24.6 24)" fill="white"/>
@@ -553,7 +565,7 @@
     </div>
     <!-- Frequently asked questions -->
     <!-- FAQs Parent Div -->
-    <div class="flex lg:flex-row justify-center md:py-32 xs:flex-col xs:items-center  md:items-start md:gap-[136px] xs:gap-[50px]">
+    <div class="flex lg:flex-row justify-center md:py-32 xs:flex-col xs:items-center  md:items-start md:gap-[136px] xs:gap-[50px] xs:px-5">
     <!-- FAQs child Div 1 -->
     <div>
         <p class="xs:text-[14px] font-sans lg:text-[38px] font-semibold leading-[56px]">Frequently asked questions</p>
@@ -568,7 +580,7 @@
         <p class="xs:text-[14px] font-sans lg:text-[24px] font-medium leading-[36px]">How much time does it take?</p>
         <p  class="xs:text-[14px] font-sans lg:text-[18px] font-medium leading-[36px] opacity-[0.8700000047683716] max-w-[642px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
-    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg class="cursor-pointer" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path opacity="0.7" d="M12.1495 13.1605L7.12057 8.1316L1.96717 13.285L0.711315 12.0292L5.86472 6.87575L0.835794 1.84682L1.84269 0.839932L6.87161 5.86886L12.025 0.715453L13.2809 1.9713L8.12746 7.12471L13.1564 12.1536L12.1495 13.1605Z" fill="#282938"/>
         </svg>
         
@@ -643,9 +655,9 @@
 </div>
 </div>
 <!-- Send inquiry parent div-->
-<div class="flex justify-center">
+<div class="flex justify-center ">
     <!-- child div -->
-    <div class="flex justify-center items-center xs:flex-col lg:flex-row bg-[#1C1E53]">
+    <div class="flex justify-center items-center xs:flex-col lg:flex-row bg-[#1C1E53] ">
         <div class="relative"> 
 
             <img src={Group1} alt=""/>
@@ -655,8 +667,8 @@
             </div>
 
         </div>
-        <div class="flex flex-col justify-center items-center lg:px-24">form
-            <div class="flex flex-col gap-10">
+        <div class="flex flex-col justify-center items-center lg:px-24 xs:px-5 xs py-5 lg:py-0">
+            <div class="flex flex-col gap-10  lg:gap-8 ">
                 <div>
                 <p class="xs:text-[20px] font-sans md:text-[32px] font-medium leading-[48px] text-white">Send inquiry</p>
                 <p class=" max-w-[432px] font-sans md:text-[16px] font-medium leading-[28px] text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
@@ -669,10 +681,10 @@
 
                 </div>
                 <!-- Button -->
-                <button class="md:max-w-[432px] bg-[#FCD980] rounded-full xs:py-[15px] md:px-[51px] md:py-[15px]">Send an Inquiry</button>
+                <button class="md:max-w-[432px] bg-[#FCD980] rounded-full xs:py-[15px] md:px-[51px] md:py-[15px] hover:hover:bg-[rgb(223,184,87)]">Send an Inquiry</button>
                 <div class="flex flex-row justify-center items-center gap-2">
-                    <p class="font-sans md:text-[18px] font-medium leading-[32px] text-white">Get in touch with us</p>
-                    <svg width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <a class="font-sans md:text-[18px] font-medium leading-[32px] text-white cursor-pointer" href="/">Get in touch with us</a>
+                    <svg class=" cursor-pointer" width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#F4F6FC"/>
                         </svg>
                         
@@ -685,7 +697,7 @@
 
   <!-- Our blog -->
   <div
-  class="flex flex-col justify-start xs:pt-20 md:pt-[128px] max-w-[1280px] m-auto sm:items-center md:items-start"
+  class="flex flex-col justify-start xs:pt-20 md:pt-[128px] max-w-[1280px] m-auto sm:items-center md:items-start xs:px-5"
 >
   <p class="xs:text-[30px] font-sans text-[48px] font-semibold leading-[64px]">
       Our blog
@@ -717,10 +729,11 @@
           <div class="flex flex-row items-center gap-[14px]">
               <a
                   href="/"
-                  class="font-sans text-[16px] font-normal leading-[28px]"
+                  class="font-sans text-[16px] font-normal leading-[28px] "
                   >Read More</a
               >
               <svg
+              class="cursor-pointer"
                   width="25"
                   height="12"
                   viewBox="0 0 25 12"
@@ -760,6 +773,7 @@
                   >Read More</a
               >
               <svg
+              class=" cursor-pointer"
                   width="25"
                   height="12"
                   viewBox="0 0 25 12"
@@ -798,6 +812,7 @@
                   >Read More</a
               >
               <svg
+              class=" cursor-pointer"
                   width="25"
                   height="12"
                   viewBox="0 0 25 12"
@@ -813,7 +828,8 @@
       </div>
   </div>
 </div>
-</div>
+<!-- </div> -->
+
 <!-- </div> -->
 <!-- </div> -->
 
