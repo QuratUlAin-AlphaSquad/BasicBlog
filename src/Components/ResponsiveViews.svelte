@@ -225,7 +225,7 @@
             {#if show}
                 <div
                     id="navItems"
-                    class="lg:flex absolute bg-[#1C1E53] lg:flex-row lg:gap-[8px] flex flex-col justify-center items-center lg:block"
+                    class="absolute bg-[#1C1E53] lg:flex-row lg:gap-[8px] flex flex-col justify-center items-center lg:hidden"
                 >
                     <ul class=" lg:flex lg:flex-row gap-[32px] text-[#BBBBCB]">
                         <li class="text-white">Home</li>
@@ -236,7 +236,7 @@
                         <li>Blog</li>
                     </ul>
                     <button
-                        class="border-solid lg:border-2 border-gray-600 rounded-full px-[28px] py-[8px] lg:px-[48px] lg:py-[16px] lg:w-[185px] text-[#BBBBCB]"
+                        class="border-solid lg:border-2 border-gray-600 rounded-full px-[28px] py-[8px] lg:px-[48px] lg:py-[16px] lg:w-[185px] text-[#BBBBCB] cursor-pointer"
                         >Contact us</button
                     >
                 </div>
@@ -264,12 +264,12 @@
 
     <div class="bg-[#1C1E53] text-white xs:py-6 xs:px-4 md:py-32 lg:px-11">
         <div
-            class="flex flex-col md:flex-col lg:flex-row justify-center items-center gap-[60px] w-full"
+            class="flex flex-col md:flex-col lg:flex-row justify-center items-center xs:gap-6 md:gap-[60px] w-full"
         >
-            <div class="max-w-[582px] flex flex-col gap-12">
+            <div class="max-w-[582px] flex flex-col xs:gap-6 md:gap-12">
                 <div>
                     <p
-                        class="xs:text-[24px] font-sans md:text-[54px] font-semibold leading-[74px]"
+                        class="xs:text-[18px] md:text-[38px] font-sans lg:text-[54px] font-semibold "
                     >
                         Building stellar websites for early startups
                     </p>
@@ -281,7 +281,7 @@
                     </p>
                 </div>
                 <!-- btn view our work div -->
-                <div class="flex xs:flex-col md:flex-row gap-10 ">
+                <div class="flex xs:flex-col md:flex-row md:gap-10 xs:gap-5">
                     <button
                         class="bg-[#FCD980] rounded-full xs:py-2 xs:px-5 md:py-4 md:px-14 text-black hover:bg-[rgb(223,184,87)]"
                         >View our work</button
@@ -314,10 +314,10 @@
 <!-- ////////// Content -->
 <div class="bg-[#F4F6FC]">
     <div class="m-auto max-w-[1600px]">
-        <div class="bg-[#F4F6FC] xs:py-5 md:py-32 xs:px-5 ">
+        <div class="bg-[#F4F6FC] xs:py-5 md:py-22 lg:py-32 xs:px-5 ">
             <!-- How we work: Main Div -->
             <div
-                class="flex xs:flex-col xs:justify-center xs:items-center lg:flex-row justify-center xs:gap-7 md:gap-36"
+                class="flex xs:flex-col xs:justify-center xs:items-center lg:flex-row justify-center xs:gap-7 md:gap-26 lg:gap-36"
             >
                 <!-- How we work -->
                 <div class="flex flex-col justify-center">
@@ -441,7 +441,7 @@
     <!-- View our projects -->
     <!-- View our projects :Main Div -->
 
-    <div class="flex flex-col xs:py-6 md:py-32 xs:px-4 xs:gap-2 md:gap-16 max-w-[1280px] justify-center">
+    <div class="flex flex-col xs:py-6 md:py-22 lg:py-32 xs:px-4 xs:gap-2 md:gap-6 lg:gap-16 max-w-[1280px] justify-center">
         <!-- div 1 -->
         <div class="flex flex-row justify-between">
             <p
@@ -485,27 +485,27 @@
     <!-- Features -->
     <!-- Features : Main div -->
 
-    <div class="bg-[#F4F6FC] xs:py-6 md:py-32 flex flex-col gap-12">
+    <div class="bg-[#F4F6FC] xs:py-6 md:py-22 lg:py-32  flex flex-col gap-12">
         <div class="flex flex-col justify-center items-center">
             <p class="font-sans text-[16px] font-medium leading-[28px]">
                 Features
             </p>
             <p
-                class="xs:text-[12px] font-sans md:text-[48px] font-semibold leading-[64px] max-w-[630px] text-center"
+                class="xs:text-[24px] font-sans md:text-[48px] font-semibold xs:leading-9 md:px-6 px-4 md:leading-[64px] max-w-[630px] text-center"
             >
                 Design that solves problems, one product at a time
             </p>
         </div>
         <!-- Cards Div -->
-        <div class="flex justify-center">
+        <div class="flex justify-center xs:px-5">
             <!-- Cards -->
             <div
-                class="grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-[32px] gap-y-[24px]"
+                class="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-x-[32px] gap-y-[24px]"
             >
                 {#each cards as card}
                     <div id="cards">
                         <div
-                            class="bg-white max-w-[405px] pr-[32.58px] pl-[48.35px] pb-[48px] pt-[58px] flex flex-row"
+                            class="bg-white max-w-[405px] lg:px-12 xs:px-4 md:px-6 px-4 lg:py-12 md:py-8 py-6  flex flex-col gap-4"
                         >
                             <div>
                                 {@html card.svg}
@@ -530,7 +530,7 @@
         <!-- What our clients say about us:Parent Div -->
         <!-- <div class="flex flex-row justify-center"> -->
 
-    <div class="flex xs:flex-col xs: px-4 lg:flex-row justify-center xs:py-6 md:py-32 xs:gap-5 md:gap-28 bg-[#F4F6FC]/[0.5]">
+    <div class="flex xs:flex-col xs: px-4 lg:flex-row justify-center xs:py-6 md:py-7 lg:py-32 xs:gap-5 md:gap-6 lg:gap-28 bg-[#F4F6FC]/[0.5]">
         <!-- child 1 -->
         <div class="">
             <p class="xs:text-[28px] font-sans md:text-[38px] font-semibold leading-[56px]  ">What our clients say about us</p>
@@ -565,19 +565,19 @@
     </div>
     <!-- Frequently asked questions -->
     <!-- FAQs Parent Div -->
-    <div class="flex lg:flex-row justify-center md:py-32 xs:flex-col xs:items-center  md:items-start md:gap-[136px] xs:gap-[50px] xs:px-5">
+    <div class="flex lg:flex-row justify-center lg:py-32 xs:flex-col xs:items-center  md:items-start lg:gap-[136px] xs:gap-[50px] xs:px-5">
     <!-- FAQs child Div 1 -->
     <div>
-        <p class="xs:text-[14px] font-sans lg:text-[38px] font-semibold leading-[56px]">Frequently asked questions</p>
-        <p class="xs:text-[14px] font-sans lg:text-[18px] font-medium leading-[32px] text-[#2405F2]/[0.8700000047683716]">Contact us for more info</p>
+        <p class="xs:text-[18px] md:text-[24px] font-sans lg:text-[38px] font-semibold leading-[56px]">Frequently asked questions</p>
+        <p class="xs:text-[14px] md:text-[18px] font-sans lg:text-[18px] font-medium leading-[32px] text-[#2405F2]/[0.8700000047683716]">Contact us for more info</p>
     </div>
         <!-- FAQs child Div 2 -->
 <div >
     <div class="flex flex-col">
-    <div class="flex flex-row xs:gap-[39px] md:gap-[59px]  border-b-2">
+    <div class="flex flex-row xs:gap-[29px] md:gap-[59px]  border-b-2">
         <p class="text-[#2405F2] xs:text-[14px] font-sans md:text-[24px] font-medium leading-[36px]">01</p>
         <div>
-        <p class="xs:text-[14px] font-sans lg:text-[24px] font-medium leading-[36px]">How much time does it take?</p>
+        <p class="xs:text-[14px] md:text-[18px] font-sans lg:text-[24px] font-medium leading-[36px]">How much time does it take?</p>
         <p  class="xs:text-[14px] font-sans lg:text-[18px] font-medium leading-[36px] opacity-[0.8700000047683716] max-w-[642px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
     <svg class="cursor-pointer" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -586,11 +586,11 @@
         
     </div>
     <!-- faq 2 -->
-    <div class="flex justify-between items-center border-b-2 py-5">
-        <div class="flex gap-[53px]">
+    <div class="flex justify-between items-center border-b-2 xs:py-2 md:py-5">
+        <div class="flex xs:gap-5 md:gap-[53px]">
             <p class="text-[#2405F2] xs:text-[14px] font-sans md:text-[24px] font-medium leading-[36px]">02</p>
            
-            <p class="xs:text-[14px] font-sans lg:text-[24px] font-medium leading-[36px]">What is your class naming convention?</p>
+            <p class="xs:text-[14px] md:text-[18px] font-sans lg:text-[24px] font-medium leading-[36px]">What is your class naming convention?</p>
 
         </div>
         <!-- <p  class="xs:text-[14px] font-sans lg:text-[18px] font-medium leading-[36px] opacity-[0.8700000047683716]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
@@ -602,11 +602,11 @@
     </div>  
     </div>
 <!-- faq 3 -->
-<div class="flex justify-between items-center border-b-2 py-5">
-    <div class="flex gap-[53px]">
+<div class="flex justify-between items-center border-b-2 md:py-5 xs:py-2">
+    <div class="flex  xs:gap-5 md:gap-[53px]">
         <p class="text-[#2405F2] xs:text-[14px] font-sans md:text-[24px] font-medium leading-[36px]">03</p>
        
-        <p class="xs:text-[14px] font-sans lg:text-[24px] font-medium leading-[36px]">How do you communicate?</p>
+        <p class="xs:text-[14px] md:text-[18px] font-sans lg:text-[24px] font-medium leading-[36px]">How do you communicate?</p>
 
     </div>
     <!-- <p  class="xs:text-[14px] font-sans lg:text-[18px] font-medium leading-[36px] opacity-[0.8700000047683716]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
@@ -618,11 +618,11 @@
 </div>  
 </div>
     <!-- faq 4 -->
-    <div class="flex justify-between items-center border-b-2 py-5">
-        <div class="flex gap-[53px]">
+    <div class="flex justify-between items-center border-b-2 md:py-5 xs:py-2">
+        <div class="flex  xs:gap-5 md:gap-[53px]">
             <p class="text-[#2405F2] xs:text-[14px] font-sans md:text-[24px] font-medium leading-[36px]">04</p>
            
-            <p class="xs:text-[14px] font-sans lg:text-[24px] font-medium leading-[36px]">I have a bigger project. Can you handle it?</p>
+            <p class="xs:text-[14px] md:text-[18px] font-sans lg:text-[24px] font-medium leading-[36px]">I have a bigger project. Can you handle it?</p>
 
         </div>
         <!-- <p  class="xs:text-[14px] font-sans lg:text-[18px] font-medium leading-[36px] opacity-[0.8700000047683716]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
@@ -634,11 +634,11 @@
     </div>  
     </div>
     <!-- faq 5 -->
-    <div class="flex justify-between items-center border-b-2 py-5">
-        <div class="flex gap-[53px]">
+    <div class="flex justify-between items-center border-b-2 md:py-5 xs:py-2">
+        <div class="flex  xs:gap-5 md:gap-[53px]">
             <p class="text-[#2405F2] xs:text-[14px] font-sans md:text-[24px] font-medium leading-[36px]">05</p>
            
-            <p class="xs:text-[14px] font-sans lg:text-[24px] font-medium leading-[36px]">What is your class naming convention?</p>
+            <p class="xs:text-[14px] md:text-[18px] font-sans lg:text-[24px] font-medium leading-[36px]">What is your class naming convention?</p>
 
         </div>
         <!-- <p  class="xs:text-[14px] font-sans lg:text-[18px] font-medium leading-[36px] opacity-[0.8700000047683716]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
@@ -697,7 +697,7 @@
 
   <!-- Our blog -->
   <div
-  class="flex flex-col justify-start xs:pt-20 md:pt-[128px] max-w-[1280px] m-auto sm:items-center md:items-start xs:px-5"
+  class="flex flex-col justify-start xs:pt-20 md:pt-[128px] max-w-[1280px] m-auto xs:items-center md:items-center lg:items-start xs:px-5"
 >
   <p class="xs:text-[30px] font-sans text-[48px] font-semibold leading-[64px]">
       Our blog
@@ -708,7 +708,7 @@
       class="flex xs:flex-col md:gap-[50px] sm:flex-col sm:items-center md:flex-col md:items-center md:justify-center md:m-auto lg:flex-row"
       id="cards"
   >
-      <div class="bg-white max-w-[405px] md:pb-[48px] md:pt-[58px] xs:pb-[28px] xs:pt-[38px]">
+      <div class="bg-white max-w-[405px] md:pb-[48px] md:pt-[58px] xs:pb-[28px] xs:pt-[38px] flex flex-col gap-3">
           <img src={businessman} alt="" />
 
           <p
@@ -716,7 +716,7 @@
           >
               19 Jan 2022
           </p>
-          <p class="font-sans text-[24px] font-medium leading-[36px]">
+          <p class="font-sans xs:text-[16px] md:text-[24px] font-medium leading-[36px]">
               How one Webflow user grew his single person consultancy
               from $0-100K in 14 months
           </p>
@@ -726,10 +726,10 @@
               See how pivoting to Webflow changed one person’s sales
               strategy and allowed him to attract
           </p>
-          <div class="flex flex-row items-center gap-[14px]">
+          <div class="flex flex-row items-center gap-[14px] pt-3">
               <a
                   href="/"
-                  class="font-sans text-[16px] font-normal leading-[28px] "
+                  class="font-sans text-[16px] font-normal leading-[28px]"
                   >Read More</a
               >
               <svg
@@ -748,7 +748,7 @@
           </div>
       </div>
 
-      <div class="bg-white max-w-[405px] md:pb-[48px] md:pt-[58px] xs:pb-[28px] xs:pt-[38px]">
+      <div class="bg-white max-w-[405px] md:pb-[48px] md:pt-[58px] xs:pb-[28px] xs:pt-[38px] flex flex-col gap-3">
           <img src={macbook} alt="" />
 
           <p
@@ -756,7 +756,7 @@
           >
               19 Jan 2022
           </p>
-          <p class="font-sans text-[24px] font-medium leading-[36px]">
+          <p class="font-sans  xs:text-[16px] md:text-[24px] font-medium leading-[36px]">
               How one Webflow user grew his single person consultancy
               from $0-100K in 14 months
           </p>
@@ -766,7 +766,7 @@
               See how pivoting to Webflow changed one person’s sales
               strategy and allowed him to attract
           </p>
-          <div class="flex flex-row items-center gap-[14px]">
+          <div class="flex flex-row items-center gap-[14px] pt-3">
               <a
                   href="/"
                   class="font-sans text-[16px] font-normal leading-[28px]"
@@ -787,7 +787,7 @@
               </svg>
           </div>
       </div>
-      <div class="bg-white max-w-[405px] md:pb-[48px] md:pt-[58px] xs:pb-[28px] xs:pt-[38px]">
+      <div class="bg-white max-w-[405px] md:pb-[48px] md:pt-[58px] xs:pb-[28px] xs:pt-[38px] flex flex-col gap-3">
           <img src={applemonitors} alt="" />
 
           <p
@@ -795,7 +795,7 @@
           >
               19 Jan 2022
           </p>
-          <p class="font-sans text-[24px] font-medium leading-[36px]">
+          <p class="font-sans xs:text-[16px] md:text-[24px] font-medium leading-[36px]">
               How one Webflow user grew his single person consultancy
               from $0-100K in 14 months
           </p>
@@ -805,7 +805,7 @@
               See how pivoting to Webflow changed one person’s sales
               strategy and allowed him to attract
           </p>
-          <div class="flex flex-row items-center gap-[14px]">
+          <div class="flex flex-row items-center gap-[14px] pt-3">
               <a
                   href="/"
                   class="font-sans text-[16px] font-normal leading-[28px]"

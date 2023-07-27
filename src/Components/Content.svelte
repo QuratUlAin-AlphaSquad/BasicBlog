@@ -339,12 +339,12 @@
                 {#each cards as card}
                     <div id="cards">
                         <div
-                            class="bg-white max-w-[405px] pr-[32.58px] pl-[48.35px] pb-[48px] pt-[58px] flex flex-row"
+                            class="bg-white max-w-[405px] xs:pb-[28px] xs:pt-[38px]   md:pb-[48px] md:pt-[58px] flex flex-row"
                         >
                             <div>
                                 {@html card.svg}
                                 <p
-                                    class="pt-[22.08px] pb-[12px] font-sans text-[24px] font-medium leading-[36px] pt-[128px]"
+                                    class="pt-[22.08px] pb-[12px] font-sans text-[24px] font-medium leading-[36px] "
                                 >
                                     {card.heading}
                                 </p>
