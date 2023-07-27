@@ -7,6 +7,7 @@
     <div class="bg-[#1C1E53] flex flex-row xs:py-16 xs:px-5 lg:py-0 lg:pt-[104px] xs:gap-16 md:gap-[142px] justify-center pt-[196px] xs:flex-col sm:items-center sm:pb-[196px] md:flex-col md:items-center md:pb-[196px] lg:flex-row md:pt-36">
         <!-- Finsweet svg -->
         <div>
+            <div class="flex flex-col gap-6">
         <svg width="160" height="33" viewBox="0 0 160 33" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_221_57)">
             <path d="M159.716 24.7494V28.7089H156.395C152.851 28.5975 150.957 26.6836 150.957 23.0887V14.0456H148.638V10.5722H150.957V6.68359H155.858V10.5317H159.605V13.995H155.858V22.6026C155.858 23.7671 156.091 24.6988 157.884 24.6988L159.716 24.7494Z" fill="white"/>
@@ -27,6 +28,7 @@
             </svg>
             
             <p class="pb-[86px] font-sans text-[16px] font-medium leading-[28px] text-white/[0.800000011920929] max-w-[399px]">We are always open to discuss your project and improve your online presence.</p>
+        </div>
 
             <div class="bg-[#FCD980] max-w-[517px] flex xs:flex-col xs:items-center md:items-start md:flex-row gap-[29px] justify-center">
                 <div>
