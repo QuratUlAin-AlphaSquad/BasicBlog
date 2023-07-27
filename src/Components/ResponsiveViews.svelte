@@ -8,7 +8,12 @@
     import HoverOverlay from "$lib/assets/Hover Overlay.png";
     import Card from "$lib/assets/Card.png";
     import JennyWilson from "$lib/assets/Jenny.png";
-    import womanWriting from "$lib/assets/woman-writing-on-paper.png";
+    import Group1 from "$lib/assets/Group 1.png";
+    import businessman from "$lib/assets/arabic-businessman-standing-on-street-and-using-laptop.png";
+    import macbook from "$lib/assets/woman-in-white-sleeveless-shirt-using-macbook-air-on-brown-wooden-table-3766189.png";
+    import applemonitors from "$lib/assets/apple-monitors-326518.png";
+    import Footer from "./Footer.svelte";
+
 
 
 
@@ -122,7 +127,7 @@
 <div class="w-full">
     <!-- <div class="flex items-start justify-around"> -->
     <div
-        class="min-h-[50px] p-8 w-full bg-[#1C1E53] flex flex-col justify-center items-center md:flex md:flex-col lg:flex-row lg:justify-around md:justify-center md:items-center sm:flex-row sm:justify-center"
+        class="min-h-[50px] md:p-8 w-full bg-[#1C1E53] flex flex-col justify-center items-center md:flex md:flex-col lg:flex-row lg:justify-around md:justify-center md:items-center sm:flex-row sm:justify-center"
     >
         <!-- svg -->
         <div class="relative w-full justify-between flex">
@@ -257,7 +262,7 @@
     </div>
     <!-- </div> -->
 
-    <div class="bg-[#1C1E53] text-white py-32">
+    <div class="bg-[#1C1E53] text-white xs:py-6 xs:px-4 md:py-32 lg:px-11">
         <div
             class="flex flex-col md:flex-col lg:flex-row justify-center items-center gap-[60px] w-full"
         >
@@ -276,7 +281,7 @@
                     </p>
                 </div>
                 <!-- btn view our work div -->
-                <div class="flex flex-row gap-10">
+                <div class="flex xs:flex-col md:flex-row gap-10 ">
                     <button
                         class="bg-[#FCD980] rounded-full xs:py-2 xs:px-5 md:py-4 md:px-14 text-black"
                         >View our work</button
@@ -308,10 +313,10 @@
 </div>
 <!-- ////////// Content -->
 <div class="m-auto max-w-[1600px]">
-    <div class=" bg-[#F4F6FC] py-32">
+    <div class=" bg-[#F4F6FC] xs:py-5 md:py-32 xs:px-5">
         <!-- How we work: Main Div -->
         <div
-            class="flex xs:flex-col xs:justify-center xs:items-center lg:flex-row justify-center gap-36"
+            class="flex xs:flex-col xs:justify-center xs:items-center lg:flex-row justify-center xs:gap-7 md:gap-36"
         >
             <!-- How we work -->
             <div class="flex flex-col justify-center">
@@ -427,7 +432,7 @@
     <!-- View our projects -->
     <!-- View our projects :Main Div -->
 
-    <div class="flex flex-col py-32 xs:px-4 gap-16">
+    <div class="flex flex-col xs:py-6 md:py-32 xs:px-4 xs:gap-2 md:gap-16">
         <!-- div 1 -->
         <div class="flex flex-row justify-between">
             <p
@@ -468,7 +473,7 @@
     </div>
     <!-- Features -->
     <!-- Features : Main div -->
-    <div class="bg-[#F4F6FC] py-32 flex flex-col gap-12">
+    <div class="bg-[#F4F6FC] xs:py-6 md:py-32 flex flex-col gap-12">
         <div class="flex flex-col justify-center items-center">
             <p class="font-sans text-[16px] font-medium leading-[28px]">
                 Features
@@ -513,7 +518,7 @@
         <!-- What our clients say about us:Parent Div -->
         <!-- <div class="flex flex-row justify-center"> -->
 
-    <div class="flex xs:flex-col xs: px-4 lg:flex-row justify-center py-32 xs:gap-20 gap-28 bg-[#F4F6FC]/[0.5]">
+    <div class="flex xs:flex-col xs: px-4 lg:flex-row justify-center xs:py-6 md:py-32 xs:gap-5 md:gap-28 bg-[#F4F6FC]/[0.5]">
         <!-- child 1 -->
         <div class="">
             <p class="xs:text-[28px] font-sans md:text-[38px] font-semibold leading-[56px]  ">What our clients say about us</p>
@@ -522,7 +527,7 @@
         </div>
                 <!-- child 2 -->
 
-        <div class="flex flex-col gap-12">
+        <div class="flex flex-col md:gap-12">
             <p class="xs:text-[18px] font-sans md:text-[32px] font-medium leading-[48px] max-w-[830px]">"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."</p>
             <div class="flex flex-row justify-between">
                 <div class="flex flex-row  gap-[9.63px] justify-center items-center">
@@ -548,7 +553,7 @@
     </div>
     <!-- Frequently asked questions -->
     <!-- FAQs Parent Div -->
-    <div class="flex lg:flex-row justify-center md:py-32 xs:flex-col xs:items-center  md:items-start md:gap-[136px] xs:gap-[90px]">
+    <div class="flex lg:flex-row justify-center md:py-32 xs:flex-col xs:items-center  md:items-start md:gap-[136px] xs:gap-[50px]">
     <!-- FAQs child Div 1 -->
     <div>
         <p class="xs:text-[14px] font-sans lg:text-[38px] font-semibold leading-[56px]">Frequently asked questions</p>
@@ -638,16 +643,178 @@
 </div>
 </div>
 <!-- Send inquiry parent div-->
-<div class="flex flex-row justify-center py-32 bg-[#1C1E53]/[0.50] z-20">
-<!-- Send inquiry child div-->
-<div>1
-<img src={womanWriting} alt="" class="opacity-[0.5]"/>
+<div class="flex justify-center">
+    <!-- child div -->
+    <div class="flex justify-center items-center xs:flex-col lg:flex-row bg-[#1C1E53]">
+        <div class="relative"> 
+
+            <img src={Group1} alt=""/>
+            <div class="absolute text-black max-w-[464px] md:left-[104px] md:top-24 xs:left-[30px] top-4 flex flex-col md:gap-[24px] xs:gap-[10px]">
+                <p class="xs:text-[14px] font-sans md:text-[54px] font-semibold leading-[74px] text-white">Building stellar websites for early startups</p>
+                <p class="xs:text-[12px] font-sans md:text-[16px] font-medium leading-[28px] text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.</p>
+            </div>
+
+        </div>
+        <div class="flex flex-col justify-center items-center lg:px-24">form
+            <div class="flex flex-col gap-10">
+                <div>
+                <p class="xs:text-[20px] font-sans md:text-[32px] font-medium leading-[48px] text-white">Send inquiry</p>
+                <p class=" max-w-[432px] font-sans md:text-[16px] font-medium leading-[28px] text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+            <!-- Form Inputs -->
+                <div class="flex flex-col gap-4 max-w-[432px]">
+                    <input type="text" placeholder="Your Name" class="bg-transparent border-2 rounded border-gray-600 py-[18px] px-8 "/>
+                    <input type="text" placeholder="Email " class="bg-transparent border-2 rounded border-gray-600 py-[18px] px-8 w-full"/>
+                    <input type="text" placeholder=" Paste your Figma design URL" class="bg-transparent border-2 rounded border-gray-600 py-[18px] px-8 w-full"/>
+
+                </div>
+                <!-- Button -->
+                <button class="md:max-w-[432px] bg-[#FCD980] rounded-full xs:py-[15px] md:px-[51px] md:py-[15px]">Send an Inquiry</button>
+                <div class="flex flex-row justify-center items-center gap-2">
+                    <p class="font-sans md:text-[18px] font-medium leading-[32px] text-white">Get in touch with us</p>
+                    <svg width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#F4F6FC"/>
+                        </svg>
+                        
+                </div>
+            </div>
+        </div>
+
+    </div>
 </div>
-<div>2</div>
 
+  <!-- Our blog -->
+  <div
+  class="flex flex-col justify-start xs:pt-20 md:pt-[128px] max-w-[1280px] m-auto sm:items-center md:items-start"
+>
+  <p class="xs:text-[30px] font-sans text-[48px] font-semibold leading-[64px]">
+      Our blog
+  </p>
+  <!-- Cards -->
 
+  <div
+      class="flex xs:flex-col md:gap-[50px] sm:flex-col sm:items-center md:flex-col md:items-center md:justify-center md:m-auto lg:flex-row"
+      id="cards"
+  >
+      <div class="bg-white max-w-[405px] md:pb-[48px] md:pt-[58px] xs:pb-[28px] xs:pt-[38px]">
+          <img src={businessman} alt="" />
 
+          <p
+              class="font-sans text-[16px] font-medium leading-[28px] text-[#282938]/[0.699999988079071]"
+          >
+              19 Jan 2022
+          </p>
+          <p class="font-sans text-[24px] font-medium leading-[36px]">
+              How one Webflow user grew his single person consultancy
+              from $0-100K in 14 months
+          </p>
+          <p
+              class="font-sans text-[16px] font-normal leading-[28px] text-[#282938]/[0.699999988079071]"
+          >
+              See how pivoting to Webflow changed one person’s sales
+              strategy and allowed him to attract
+          </p>
+          <div class="flex flex-row items-center gap-[14px]">
+              <a
+                  href="/"
+                  class="font-sans text-[16px] font-normal leading-[28px]"
+                  >Read More</a
+              >
+              <svg
+                  width="25"
+                  height="12"
+                  viewBox="0 0 25 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+              >
+                  <path
+                      d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                      fill="#282938"
+                  />
+              </svg>
+          </div>
+      </div>
+
+      <div class="bg-white max-w-[405px] md:pb-[48px] md:pt-[58px] xs:pb-[28px] xs:pt-[38px]">
+          <img src={macbook} alt="" />
+
+          <p
+              class="font-sans text-[16px] font-medium leading-[28px] text-[#282938]/[0.699999988079071]"
+          >
+              19 Jan 2022
+          </p>
+          <p class="font-sans text-[24px] font-medium leading-[36px]">
+              How one Webflow user grew his single person consultancy
+              from $0-100K in 14 months
+          </p>
+          <p
+              class="font-sans text-[16px] font-normal leading-[28px] text-[#282938]/[0.699999988079071]"
+          >
+              See how pivoting to Webflow changed one person’s sales
+              strategy and allowed him to attract
+          </p>
+          <div class="flex flex-row items-center gap-[14px]">
+              <a
+                  href="/"
+                  class="font-sans text-[16px] font-normal leading-[28px]"
+                  >Read More</a
+              >
+              <svg
+                  width="25"
+                  height="12"
+                  viewBox="0 0 25 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+              >
+                  <path
+                      d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                      fill="#282938"
+                  />
+              </svg>
+          </div>
+      </div>
+      <div class="bg-white max-w-[405px] md:pb-[48px] md:pt-[58px] xs:pb-[28px] xs:pt-[38px]">
+          <img src={applemonitors} alt="" />
+
+          <p
+              class="font-sans text-[16px] font-medium leading-[28px] text-[#282938]/[0.699999988079071]"
+          >
+              19 Jan 2022
+          </p>
+          <p class="font-sans text-[24px] font-medium leading-[36px]">
+              How one Webflow user grew his single person consultancy
+              from $0-100K in 14 months
+          </p>
+          <p
+              class="font-sans text-[16px] font-normal leading-[28px] text-[#282938]/[0.699999988079071]"
+          >
+              See how pivoting to Webflow changed one person’s sales
+              strategy and allowed him to attract
+          </p>
+          <div class="flex flex-row items-center gap-[14px]">
+              <a
+                  href="/"
+                  class="font-sans text-[16px] font-normal leading-[28px]"
+                  >Read More</a
+              >
+              <svg
+                  width="25"
+                  height="12"
+                  viewBox="0 0 25 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+              >
+                  <path
+                      d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                      fill="#282938"
+                  />
+              </svg>
+          </div>
+      </div>
+  </div>
 </div>
 </div>
 <!-- </div> -->
+<!-- </div> -->
 
+<Footer />
