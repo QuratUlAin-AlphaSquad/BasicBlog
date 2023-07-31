@@ -228,7 +228,7 @@
             {#if show}
                 <div
                     id="navItems"
-                    class="absolute bg-[#1C1E53] lg:flex-row lg:gap-[8px] flex flex-col justify-center items-center lg:hidden"
+                    class="absolute bg-[#1C1E53] lg:flex-row lg:gap-[8px] flex flex-col justify-center items-center lg:hidden  w-full z-1 top-9"
                 >
                     <ul class=" lg:flex lg:flex-row gap-[32px] text-[#BBBBCB]">
                         <li class="text-white">Home</li>
@@ -247,8 +247,9 @@
         </div>
         <div
             id="navItems"
-            class="hidden lg:flex lg:flex-row lg:gap-[8px] flex-col justify-center items-center w-full"
+            class="hidden lg:flex lg:flex-row lg:gap-[48px] flex-col justify-center items-center w-full"
         >
+        
             <ul class=" lg:flex lg:flex-row gap-[32px] text-[#BBBBCB]">
                 <li class="text-white cursor-pointer">Home</li>
                 <a href="/" class="cursor-pointer">About us</a>
