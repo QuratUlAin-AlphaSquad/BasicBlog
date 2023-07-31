@@ -13,6 +13,7 @@
     import macbook from "$lib/assets/woman-in-white-sleeveless-shirt-using-macbook-air-on-brown-wooden-table-3766189.png";
     import applemonitors from "$lib/assets/apple-monitors-326518.png";
     import Footer from "./Footer.svelte";
+    import { fade } from "svelte/transition";
 
 
 
@@ -123,7 +124,7 @@
     ];
 </script>
 
-<!-- <button class="bg-gray-600 rounded transition hover:bg-yellow-800 ease-in-out duration-300">Transition</button> -->
+<!-- <button class="bg-gray-600 rounded hover:bg-yellow-800 	">Transition</button> -->
 
 <!-- HEADER -->
 <div class="w-full">
@@ -238,7 +239,7 @@
                         <li>Blog</li>
                     </ul>
                     <button
-                        class="border-solid lg:border-2 border-gray-600 rounded-full px-[28px] py-[8px] lg:px-[48px] lg:py-[16px] lg:w-[185px] text-[#BBBBCB] cursor-pointer"
+                        class="border-solid lg:border-2 border-gray-600 rounded-full px-[28px] py-[8px] lg:px-[48px] lg:py-[16px] lg:w-[185px] text-[#BBBBCB] cursor-pointer transition ease-in-out duration-300"
                         >Contact us</button
                     >
                 </div>
@@ -246,7 +247,7 @@
         </div>
         <div
             id="navItems"
-            class="hidden lg:flex lg:flex-row lg:gap-[8px] flex-col justify-center items-center"
+            class="hidden lg:flex lg:flex-row lg:gap-[8px] flex-col justify-center items-center w-full"
         >
             <ul class=" lg:flex lg:flex-row gap-[32px] text-[#BBBBCB]">
                 <li class="text-white cursor-pointer">Home</li>
@@ -257,7 +258,7 @@
                 <li class="cursor-pointer">Blog</li>
             </ul>
             <button
-                class=" w-full border-solid lg:border-2 border-gray-600 rounded-full px-[28px] py-[8px] lg:px-[28px] lg:py-[8px] lg:w-[145px] text-[#BBBBCB]"
+                class=" w-full border-solid lg:border-2 border-gray-600 rounded-full px-[28px] py-[8px] lg:px-[28px] lg:py-[8px] lg:w-[145px] text-[#BBBBCB] hover:bg-[rgb(49,40,17)] transition ease-in-out duration-700"
                 >Contact us</button
             >
         </div>
@@ -284,8 +285,8 @@
                 </div>
                 <!-- btn view our work div -->
                 <div class="flex xs:flex-col md:flex-row md:gap-10 xs:gap-5">
-                    <button
-                        class="bg-[#FCD980] rounded-full xs:py-2 xs:px-5 md:py-4 md:px-14 text-black hover:bg-[rgb(223,184,87)]"
+                    <button transition:fade
+                        class="bg-[#FCD980] rounded-full xs:py-2 xs:px-5 md:py-4 md:px-14 text-black hover:bg-[rgb(223,184,87)] transition ease-in-out duration-700 animate-pulse "
                         >View our work</button
                     >
                     <div
@@ -683,7 +684,7 @@
 
                 </div>
                 <!-- Button -->
-                <button class="md:max-w-[432px] bg-[#FCD980] rounded-full xs:py-[15px] md:px-[51px] md:py-[15px] hover:hover:bg-[rgb(223,184,87)]">Send an Inquiry</button>
+                <button class="md:max-w-[432px] bg-[#FCD980] rounded-full xs:py-[15px] md:px-[51px] md:py-[15px] hover:hover:bg-[rgb(223,184,87)] transition ease-in-out duration-700">Send an Inquiry</button>
                 <div class="flex flex-row justify-center items-center gap-2">
                     <a class="font-sans md:text-[18px] font-medium leading-[32px] text-white cursor-pointer" href="/">Get in touch with us</a>
                     <svg class=" cursor-pointer" width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
